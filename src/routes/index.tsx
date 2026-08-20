@@ -468,7 +468,7 @@ function Index() {
           <div className="flex w-max marquee-track whitespace-nowrap text-2xl font-display font-semibold text-muted-foreground/60">
             {[...Array(2)].map((_, i) => (
               <div key={i} className="flex gap-6 md:gap-16 pr-6 md:pr-16">
-                {["Typescript", "·", "React", "·", "SwiftUI", "·", "Next.js", "·", "Flutter", "·", "Node.js", "·", "Figma", "·", "AWS", "·", "Firebase", "·", "GitHub", "·", "Supabase", "·", "Canva", "·", "Python", "·", "Flask", "·", "PostgreSQL", "·", "SQLite", "·", "TailwindCSS", "·", "Vercel", "·"].map((t, j) => (
+                {["Typescript", "·", "React", "·", "SwiftUI", "·", "Next.js", "·", "Flutter", "·", "Node.js", "·", "Figma", "·", "AWS", "·", "Firebase", "·", "GitHub", "·", "Supabase", "·", "Canva", "·", "Python", "·", "Flask", "·", "Docker", "·", "SQLite", "·", "Railway", "·", "Vercel", "·"].map((t, j) => (
                   <span key={j}>{t}</span>
                 ))}
               </div>
