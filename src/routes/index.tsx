@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Globe, MonitorSmartphone, Server, Search, PenTool, LineChart, ChevronRight, Gem, Rocket, Shield, Code2, Check, Star, Menu, X, Palette, ClockArrowUp, Paintbrush, Layers, ArrowUpRight, ShoppingCart, School, LayoutTemplate, CalendarCheck, Settings, Code } from "lucide-react";
+import { Globe, Server, Search, PenTool, LineChart, ChevronRight, Shield, Code2, Star, Menu, X, Palette, ClockArrowUp, ShoppingCart, School, LayoutTemplate, CalendarCheck, Settings, Code } from "lucide-react";
 import { LuPaintbrushVertical } from "react-icons/lu";
 import { useReveal } from "@/hooks/use-reveal";
 
@@ -9,8 +9,8 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Layanan Jasa Pembuatan Aplikasi Mobile,Desktop & Website Modern" },
       { name: "description", content: "Pembuatan Aplikasi Android, iOS, Desktop, WebApps, Aplikasi Costum, Website dan Server untuk kebutuhan Bisnis Anda." },
-      { property: "og:image", content: "https://www.elproject.studio/og-image.jpg" },
-      { name: "twitter:image", content: "https://www.elproject.studio/og-image.jpg" },
+      { property: "og:image", content: "https://www.tembusdigital.com/og-image.jpg" },
+      { name: "twitter:image", content: "https://www.tembusdigital.com/og-image.jpg" },
       { name: "robots", content: "max-image-preview:large" },
     ],
   }),
@@ -83,14 +83,6 @@ const concepts = [
     bgImage: "/server_bg2.webp"
   },
   {
-    icon: Code,
-    title: "Custom Aplikasi Sesuai Ide",
-    desc: "Punya ide unik yang belum ada di pasaran? Kami siap mewujudkannya dari tahap wireframe hingga menjadi produk nyata yang siap pakai.",
-    tags: ["Custom", "Startups"],
-    features: ["Konsultasi UI/UX", "API Integration", "Scalable"],
-    bgImage: "/medical_concept.webp"
-  },
-  {
     icon: PenTool,
     title: "Desain Grafis & UI/UX",
     desc: "Layanan desain visual yang menarik dan berpusat pada pengguna untuk memperkuat branding perusahaan dan meningkatkan pengalaman interaksi.",
@@ -105,6 +97,14 @@ const concepts = [
     tags: ["Web", "Portal"],
     features: ["High Performance", "CMS Terintegrasi", "Responsive"],
     bgImage: "/001.webp"
+  },
+  {
+    icon: Code,
+    title: "Custom Aplikasi Sesuai Ide",
+    desc: "Punya ide unik yang belum ada di pasaran? Kami siap mewujudkannya dari tahap wireframe hingga menjadi produk nyata yang siap pakai.",
+    tags: ["Custom", "Startups"],
+    features: ["Konsultasi UI/UX", "API Integration", "Scalable"],
+    bgImage: "/medical_concept.webp"
   }
 ];
 
@@ -301,9 +301,9 @@ function Index() {
         <div className="w-full max-w-[96vw] 2xl:max-w-[1600px] mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center lg:w-1/3">
             <Link to="/" className="group font-display text-xl font-bold tracking-wider flex items-center relative pb-1 ml-0 md:ml-12">
-              <span className="relative inline-block shine-text" data-text="ELPROJECT">
-                <span className="text-foreground/90 transition-colors duration-300 group-hover:text-primary">EL</span>
-                <span className="text-gradient">PROJECT</span>
+              <span className="relative inline-block shine-text" data-text="TEMBUSDIGITAL">
+                <span className="text-foreground/90 transition-colors duration-300 group-hover:text-primary">TEMBUS</span>
+                <span className="text-gradient">DIGITAL</span>
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[2px] rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" style={{ background: "var(--gradient-primary)" }} />
             </Link>
@@ -316,7 +316,7 @@ function Index() {
           </nav>
 
           <div className="flex items-center justify-end lg:w-1/3">
-            <a href="https://wa.me/6283867180887?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.elproject.studio" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12">Konsultasi <ChevronRight className="w-4 h-4" /></a>
+            <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12">Konsultasi <ChevronRight className="w-4 h-4" /></a>
             <button
               className="lg:hidden p-2 -mr-2 text-foreground/80 hover:text-primary transition-colors cursor-pointer"
               onClick={() => setIsMobileMenuOpen(true)}
@@ -357,7 +357,7 @@ function Index() {
 
             <div className="w-full h-px bg-border/50 my-2" />
 
-            <a href="https://wa.me/6283867180887?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.elproject.studio" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
+            <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
               Konsultasi
             </a>
           </nav>
@@ -411,7 +411,7 @@ function Index() {
                     <img
                       key={slide}
                       src={slide}
-                      alt={`Portofolio Aplikasi EL Project Studio Digital - Desain Premium ${index + 1}`}
+                      alt={`Portofolio Aplikasi Tembus Digital Studio Digital - Desain Premium ${index + 1}`}
                       className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-in-out ${positionClass}`}
                     />
                   );
@@ -482,7 +482,7 @@ function Index() {
         <div className="w-full max-w-[96vw] 2xl:max-w-[1600px] mx-auto">
           <div className="text-center mt-6 md:mt-8 mb-10 md:mb-16 reveal-up reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Layanan <span className="text-gradient">Unggulan</span> Kami</h2>
-            <p className="text-sm md:text-xl font-semibold text-foreground/90 max-w-2xl mx-auto">
+            <p className="text-sm md:text-xl font-semibold text-foreground/90 max-w-3xl mx-auto">
               Kami menyediakan solusi digital front-to-end <br className="md:hidden" /> untuk kebutuhan bisnis Anda.
             </p>
           </div>
@@ -716,8 +716,8 @@ function Index() {
               Kami balas secepatnya
             </p>
             <div className="flex flex-wrap gap-4 justify-center relative z-20">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=elproject.dev@gmail.com" target="_blank" rel="noopener noreferrer" className="btn-primary shadow-[0_0_15px_var(--color-primary)]">elproject@studio.id <ChevronRight className="w-4 h-4" /></a>
-              <a href="https://wa.me/6283867180887?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.elproject.studio" target="_blank" rel="noopener noreferrer" className="btn-ghost bg-background/50 backdrop-blur-sm border-white/10 hover:bg-white/10">Chat WhatsApp</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tembusdigital@gmail.com" target="_blank" rel="noopener noreferrer" className="btn-primary shadow-[0_0_15px_var(--color-primary)]">tembusdigital.com <ChevronRight className="w-4 h-4" /></a>
+              <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" className="btn-ghost bg-background/50 backdrop-blur-sm border-white/10 hover:bg-white/10">Chat WhatsApp</a>
             </div>
           </div>
         </div>
@@ -729,7 +729,7 @@ function Index() {
           <div>
             <h2 className="text-lg font-bold text-foreground/90 mb-2 drop-shadow-sm">Jasa Buat Aplikasi Mobile & Website Profesional</h2>
             <p className="leading-relaxed">
-              Di era digital saat ini, memiliki platform digital yang andal adalah keharusan. EL Project menyediakan <strong>jasa buat aplikasi</strong> terbaik untuk kebutuhan bisnis Anda. Mulai dari <strong>aplikasi kasir (POS)</strong>, <strong>sistem ERP</strong>, hingga <strong>aplikasi booking dan antrean</strong>. Tim kami terdiri dari developer berpengalaman yang siap memberikan solusi pengembangan <strong>aplikasi mobile Android dan iOS</strong> yang responsif, cepat, dan <em>user-friendly</em>.
+              Di era digital saat ini, memiliki platform digital yang andal adalah keharusan. Tembus Digital menyediakan <strong>jasa buat aplikasi</strong> terbaik untuk kebutuhan bisnis Anda. Mulai dari <strong>aplikasi kasir (POS)</strong>, <strong>sistem ERP</strong>, hingga <strong>aplikasi booking dan antrean</strong>. Tim kami terdiri dari developer berpengalaman yang siap memberikan solusi pengembangan <strong>aplikasi mobile Android dan iOS</strong> yang responsif, cepat, dan <em>user-friendly</em>.
             </p>
           </div>
           <div>
@@ -747,10 +747,10 @@ function Index() {
               Kami menawarkan berbagai macam layanan pembuatan aplikasi, termasuk <strong>aplikasi kasir (POS)</strong>, <strong>sistem ERP</strong>, <strong>aplikasi booking dan antrean</strong>, serta <strong>aplikasi mobile Android dan iOS</strong>. Setiap proyek dikerjakan dengan standar kualitas tertinggi untuk memastikan performa optimal dan pengalaman pengguna terbaik.
             </p>
             <p>
-              Dengan komitmen kami terhadap kualitas, transparansi, dan layanan pelanggan yang unggul, EL Project telah menjadi pilihan utama bagi bisnis yang mencari solusi digital andal. Tim kami selalu mengikuti perkembangan teknologi terbaru untuk memastikan bahwa aplikasi yang kami bangun tidak hanya memenuhi kebutuhan saat ini, tetapi juga siap untuk pertumbuhan bisnis di masa depan.
+              Dengan komitmen kami terhadap kualitas, transparansi, dan layanan pelanggan yang unggul, Tembus Digital telah menjadi pilihan utama bagi bisnis yang mencari solusi digital andal. Tim kami selalu mengikuti perkembangan teknologi terbaru untuk memastikan bahwa aplikasi yang kami bangun tidak hanya memenuhi kebutuhan saat ini, tetapi juga siap untuk pertumbuhan bisnis di masa depan.
             </p>
             <p>
-              Sebagai penyedia <strong>jasa pembuatan aplikasi custom</strong> dan <strong>jasa pembuatan website perusahaan</strong> terbaik, EL Project melayani segala kebutuhan digitalisasi untuk <strong>bisnis skala kecil (UMKM), menengah, hingga besar (enterprise)</strong>. Kami dikenal luas sebagai pakar terpercaya untuk <strong>layanan jasa pembuatan aplikasi di Yogyakarta</strong> yang telah menjangkau klien di seluruh pelosok Nusantara. Layanan unggulan kami meliputi <strong>jasa pembuatan sistem ERP</strong>, <strong>jasa pembuatan aplikasi kasir (POS)</strong>, <strong>aplikasi booking dan antrean</strong>, serta <strong>jasa pembuatan aplikasi mobile Android dan iOS</strong>. Layanan <strong>jasa pembuatan website dan aplikasi</strong> kami secara penuh mendukung klien dari area <strong>Yogyakarta (Jogja), Solo, Magelang, Wonosobo, Purwokerto, Purbalingga, Cilacap, Tegal, Sragen, Semarang, Bandung, Jakarta, Surabaya, Bali, Medan, Lampung, Palembang, Pontianak, Palangkaraya, Samarinda, Balikpapan, Makassar, Gorontalo, Maluku, Kupang, Timor Leste, Sorong, hingga Jayapura (Papua)</strong>. Dengan dedikasi penuh pada kualitas UI/UX premium dan optimasi performa tinggi, kami memastikan setiap proyek dieksekusi dengan presisi mutlak untuk mendukung kesuksesan digital bisnis Anda.
+              Sebagai penyedia <strong>jasa pembuatan aplikasi custom</strong> dan <strong>jasa pembuatan website perusahaan</strong> terbaik, Tembus Digital melayani segala kebutuhan digitalisasi untuk <strong>bisnis skala kecil (UMKM), menengah, hingga besar (enterprise)</strong>. Kami dikenal luas sebagai pakar terpercaya untuk <strong>layanan jasa pembuatan aplikasi di Yogyakarta</strong> yang telah menjangkau klien di seluruh pelosok Nusantara. Layanan unggulan kami meliputi <strong>jasa pembuatan sistem ERP</strong>, <strong>jasa pembuatan aplikasi kasir (POS)</strong>, <strong>aplikasi booking dan antrean</strong>, serta <strong>jasa pembuatan aplikasi mobile Android dan iOS</strong>. Layanan <strong>jasa pembuatan website dan aplikasi</strong> kami secara penuh mendukung klien dari area <strong>Yogyakarta (Jogja), Solo, Magelang, Wonosobo, Purwokerto, Purbalingga, Cilacap, Tegal, Sragen, Semarang, Bandung, Jakarta, Surabaya, Bali, Medan, Lampung, Palembang, Pontianak, Palangkaraya, Samarinda, Balikpapan, Makassar, Gorontalo, Maluku, Kupang, Timor Leste, Sorong, hingga Jayapura (Papua)</strong>. Dengan dedikasi penuh pada kualitas UI/UX premium dan optimasi performa tinggi, kami memastikan setiap proyek dieksekusi dengan presisi mutlak untuk mendukung kesuksesan digital bisnis Anda.
             </p>
             <p>kami menawarkan jasa pembuatan aplikasi <strong>sistem antrean</strong> dan juga layanan jasa pembuatan aplikasi <strong>absensi</strong></p>
 
@@ -758,14 +758,14 @@ function Index() {
           <div>
             <h2 className="text-lg font-bold text-foreground/90 mb-2 drop-shadow-sm">Layanan Jasa Pembuatan Aplikasi Seluruh Indonesia</h2>
             <p className="leading-relaxed">
-              EL Project melayani <strong>jasa pembuatan aplikasi</strong> untuk klien di <strong>seluruh Indonesia</strong>. Di mana pun bisnis Anda berlokasi, mulai dari <strong>Jakarta, Surabaya, Bandung, Semarang, Yogyakarta (Jogja), Medan, Makassar, Bali, hingga Balikpapan dan kota lainnya</strong>, tim kami siap membantu Anda. Kami menangani proyek pembuatan aplikasi skala kecil hingga enterprise secara profesional.
+              Tembus Digital melayani <strong>jasa pembuatan aplikasi</strong> untuk klien di <strong>seluruh Indonesia</strong>. Di mana pun bisnis Anda berlokasi, mulai dari <strong>Jakarta, Surabaya, Bandung, Semarang, Yogyakarta (Jogja), Medan, Makassar, Bali, hingga Balikpapan dan kota lainnya</strong>, tim kami siap membantu Anda. Kami menangani proyek pembuatan aplikasi skala kecil hingga enterprise secara profesional.
             </p>
           </div>
         </div>
       </section>
 
       <footer className="border-t border-border/40 py-8 px-6 text-center text-[10px] md:text-xs text-muted-foreground transition-all duration-300 hover:text-primary hover:drop-shadow-[0_0_8px_var(--color-primary)] cursor-default">
-        © 2026 EL PROJECT DEVELOPMENT BUILDER WEB APPS © 2026
+        © 2026 Powered by tembus digital © 2026
       </footer>
     </main>
   );

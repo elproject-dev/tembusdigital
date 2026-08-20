@@ -1,4 +1,4 @@
-# Laporan Jangkauan Pencarian — EL Project
+# Laporan Jangkauan Pencarian — Tembus Digital
 
 Generated: 2026-08-02T18:26:15.533Z
 
@@ -15,7 +15,7 @@ Generated: 2026-08-02T18:26:15.533Z
 
 ### 1. Google Search Console
 1. Buka https://search.google.com/search-console
-2. Submit sitemap: `https://www.elproject.studio/sitemap.xml`
+2. Submit sitemap: `https://www.tembusdigital.com/sitemap.xml`
 3. Pantau keyword dari `keywords.txt` di menu Performance
 
 ### 2. Cek index & operator
@@ -23,7 +23,7 @@ Buka `google-operators.json` atau `dashboard.html` di browser.
 
 ### 3. AI Search (ChatGPT, Gemini, Perplexity, Copilot)
 1. Jalankan dengan `--apply-ai` agar robots.txt + llms.txt ter-update
-2. Pastikan `https://www.elproject.studio/llms.txt` public
+2. Pastikan `https://www.tembusdigital.com/llms.txt` public
 3. Uji prompt di `ai-prompt-pack.json`
 
 ### 4. Rank monitoring manual
@@ -62,16 +62,16 @@ File `google-rank-check-urls.json` — buka 10–20 keyword prioritas tiap mingg
 30. jasa pembuatan aplikasi yogyakarta murah
 
 ## Google operator (siap pakai)
-- **Semua halaman terindex**: [site:www.elproject.studio](https://www.google.com/search?q=site%3Awww.elproject.studio&num=20&hl=id&gl=id)
-- **Brand mention di web lain**: ["EL Project" OR "elproject.studio" -site:www.elproject.studio](https://www.google.com/search?q=%22EL+Project%22+OR+%22elproject.studio%22+-site%3Awww.elproject.studio&num=20&hl=id&gl=id)
-- **Judul mengandung brand**: [intitle:"EL Project" OR intitle:"elproject"](https://www.google.com/search?q=intitle%3A%22EL+Project%22+OR+intitle%3A%22elproject%22&num=20&hl=id&gl=id)
-- **URL mengandung brand**: [inurl:elproject](https://www.google.com/search?q=inurl%3Aelproject&num=20&hl=id&gl=id)
-- **Kompetitor lokal**: ["jasa pembuatan aplikasi" Yogyakarta -site:www.elproject.studio](https://www.google.com/search?q=%22jasa+pembuatan+aplikasi%22+Yogyakarta+-site%3Awww.elproject.studio&num=20&hl=id&gl=id)
-- **Blog terindex**: [site:www.elproject.studio/blog](https://www.google.com/search?q=site%3Awww.elproject.studio%2Fblog&num=20&hl=id&gl=id)
-- **Showcase terindex**: [site:www.elproject.studio/showcase](https://www.google.com/search?q=site%3Awww.elproject.studio%2Fshowcase&num=20&hl=id&gl=id)
-- **Cache homepage**: [cache:www.elproject.studio](https://www.google.com/search?q=cache%3Awww.elproject.studio&num=20&hl=id&gl=id)
-- **Related sites**: [related:www.elproject.studio](https://www.google.com/search?q=related%3Awww.elproject.studio&num=20&hl=id&gl=id)
-- **File dokumen**: [site:www.elproject.studio filetype:pdf OR filetype:doc](https://www.google.com/search?q=site%3Awww.elproject.studio+filetype%3Apdf+OR+filetype%3Adoc&num=20&hl=id&gl=id)
+- **Semua halaman terindex**: [site:www.tembusdigital.com](https://www.google.com/search?q=site%3Awww.tembusdigital.com&num=20&hl=id&gl=id)
+- **Brand mention di web lain**: ["Tembus Digital" OR "tembusdigital.com" -site:www.tembusdigital.com](https://www.google.com/search?q=%22EL+Project%22+OR+%22tembusdigital.com%22+-site%3Awww.tembusdigital.com&num=20&hl=id&gl=id)
+- **Judul mengandung brand**: [intitle:"Tembus Digital" OR intitle:"tembusdigital"](https://www.google.com/search?q=intitle%3A%22EL+Project%22+OR+intitle%3A%22tembusdigital%22&num=20&hl=id&gl=id)
+- **URL mengandung brand**: [inurl:tembusdigital](https://www.google.com/search?q=inurl%3Atembusdigital&num=20&hl=id&gl=id)
+- **Kompetitor lokal**: ["jasa pembuatan aplikasi" Yogyakarta -site:www.tembusdigital.com](https://www.google.com/search?q=%22jasa+pembuatan+aplikasi%22+Yogyakarta+-site%3Awww.tembusdigital.com&num=20&hl=id&gl=id)
+- **Blog terindex**: [site:www.tembusdigital.com/blog](https://www.google.com/search?q=site%3Awww.tembusdigital.com%2Fblog&num=20&hl=id&gl=id)
+- **Showcase terindex**: [site:www.tembusdigital.com/showcase](https://www.google.com/search?q=site%3Awww.tembusdigital.com%2Fshowcase&num=20&hl=id&gl=id)
+- **Cache homepage**: [cache:www.tembusdigital.com](https://www.google.com/search?q=cache%3Awww.tembusdigital.com&num=20&hl=id&gl=id)
+- **Related sites**: [related:www.tembusdigital.com](https://www.google.com/search?q=related%3Awww.tembusdigital.com&num=20&hl=id&gl=id)
+- **File dokumen**: [site:www.tembusdigital.com filetype:pdf OR filetype:doc](https://www.google.com/search?q=site%3Awww.tembusdigital.com+filetype%3Apdf+OR+filetype%3Adoc&num=20&hl=id&gl=id)
 - **AI Overview target**: [berapa biaya jasa pembuatan aplikasi Yogyakarta](https://www.google.com/search?q=berapa+biaya+jasa+pembuatan+aplikasi+Yogyakarta&num=20&hl=id&gl=id)
 - **Software house jogja**: [software house yogyakarta OR "software house jogja"](https://www.google.com/search?q=software+house+yogyakarta+OR+%22software+house+jogja%22&num=20&hl=id&gl=id)
 

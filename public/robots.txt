@@ -1,4 +1,4 @@
-# robots.txt — EL Project
+# robots.txt — Tembus Digital
 # Izinkan Google Search + AI crawlers untuk memperluas jangkauan
 
 User-agent: *
@@ -74,5 +74,5 @@ User-agent: *
 Disallow: /api/private
 Disallow: /admin
 
-Sitemap: https://www.elproject.studio/sitemap.xml
-# LLMs: https://www.elproject.studio/llms.txt
+Sitemap: https://www.tembusdigital.com/sitemap.xml
+# LLMs: https://www.tembusdigital.com/llms.txt

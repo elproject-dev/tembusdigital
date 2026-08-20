@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Blog & Artikel — EL Project" },
-      { name: "description", content: "Kumpulan artikel, tips digital marketing, dan wawasan teknologi terbaru dari EL Project." },
+      { title: "Blog & Artikel — Tembus Digital" },
+      { name: "description", content: "Kumpulan artikel, tips digital marketing, dan wawasan teknologi terbaru dari Tembus Digital." },
     ],
   }),
   component: BlogPage,
@@ -20,9 +20,9 @@ const blogPosts = [
 
 Namun, perkembangan teknologi ini tidak berarti bahwa profesi Web Developer akan hilang. Sebaliknya, peran developer berevolusi menjadi AI-Assisted Developer atau Software Architect. Kemampuan utama yang dibutuhkan bergeser dari sekadar menghafal sintaksis bahasa pemrograman ke arah pemikiran logis tingkat tinggi, merancang arsitektur sistem yang efisien, mengelola keamanan siber, dan memastikan skalabilitas infrastruktur cloud.
 
-Di masa depan, integrasi AI ke dalam aplikasi web akan menjadi standar industri. Fitur-fitur seperti personalisasi dinamis secara real-time, deteksi anomali keamanan otomatis, hingga antarmuka berbasis suara akan menjadi fitur esensial. Bagi developer, tantangannya adalah terus beradaptasi dan belajar memanfaatkan tools AI ini untuk membangun produk digital yang lebih baik, lebih cepat, dan lebih aman bagi pengguna akhir. EL Project selalu siap membantu bisnis Anda menyelaraskan teknologi modern ini dengan solusi web masa depan yang tangguh.`,
+Di masa depan, integrasi AI ke dalam aplikasi web akan menjadi standar industri. Fitur-fitur seperti personalisasi dinamis secara real-time, deteksi anomali keamanan otomatis, hingga antarmuka berbasis suara akan menjadi fitur esensial. Bagi developer, tantangannya adalah terus beradaptasi dan belajar memanfaatkan tools AI ini untuk membangun produk digital yang lebih baik, lebih cepat, dan lebih aman bagi pengguna akhir. Tembus Digital selalu siap membantu bisnis Anda menyelaraskan teknologi modern ini dengan solusi web masa depan yang tangguh.`,
     date: "12 Agustus 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=600&auto=format&fit=crop",
     category: "Teknologi"
   },
@@ -35,7 +35,7 @@ Alasan pertama pentingnya aplikasi kasir adalah akurasi dan kecepatan pencatatan
 
 Keempat, kemudahan integrasi dengan berbagai metode pembayaran cashless (dompet digital, transfer bank, hingga QRIS) akan memperluas jangkauan pelanggan Anda. Terakhir, kepuasan pelanggan akan meningkat berkat proses checkout yang cepat dan profesional. Memiliki aplikasi kasir bukan lagi pengeluaran opsional, melainkan investasi strategis jangka panjang yang krusial bagi kesuksesan dan pertumbuhan bisnis Anda.`,
     date: "5 Agustus 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=600&auto=format&fit=crop",
     category: "Bisnis"
   },
@@ -48,7 +48,7 @@ Optimasi SEO dimulai dari riset kata kunci (keyword research) yang mendalam untu
 
 Pilar berikutnya adalah Technical SEO, yang mencakup pembuatan struktur URL yang bersih, penyediaan sitemap XML yang diperbarui, pengaktifan protokol HTTPS yang aman, serta keramahan tampilan mobile (mobile-friendliness). Di sisi lain, Off-Page SEO melibatkan pembangunan otoritas website melalui backlink berkualitas dari situs-situs terpercaya. Dengan menerapkan strategi SEO yang konsisten dan berbasis data, situs Anda akan secara organik naik ke peringkat pertama pencarian Google, membangun kepercayaan audiens, dan meningkatkan konversi penjualan Anda tanpa biaya iklan yang mahal.`,
     date: "28 Juli 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=600&auto=format&fit=crop",
     category: "Digital Marketing"
   },
@@ -59,25 +59,25 @@ Pilar berikutnya adalah Technical SEO, yang mencakup pembuatan struktur URL yang
 
 Sebelum memilih teknologi canggih, kuasailah dasar logika logika seperti variabel, tipe data, perulangan (loops), pengondisian (if-else), dan fungsi. Cobalah memulai dengan bahasa pemrograman yang ramah pemula namun banyak digunakan di industri, seperti JavaScript (untuk web) atau Python (untuk analisis data & scripting). Setelah memahami dasar-dasar ini, segera keluar dari jebakan 'tutorial purgatory'—kondisi di mana Anda terus-menerus menonton video tutorial tanpa pernah mencoba menulis kode sendiri.
 
-Kunci utama belajar coding yang efektif adalah metode 'Learning by Doing'. Pilihlah satu proyek kecil yang sederhana, seperti aplikasi kalkulator, to-do list, atau web portofolio pribadi, lalu cobalah membangunnya dari nol. Ketika Anda mengalami error (yang merupakan hal yang sangat wajar bagi setiap programmer), mulailah belajar cara melakukan debugging dan memanfaatkan komunitas online seperti Stack Overflow atau dokumentasi resmi. Konsistensi latihan harian jauh lebih penting daripada belajar seharian penuh namun hanya sekali seminggu. Di EL Project, kami memandu para calon programmer dengan kurikulum praktis berbasis proyek agar Anda bisa belajar secara efektif hingga mahir.`,
+Kunci utama belajar coding yang efektif adalah metode 'Learning by Doing'. Pilihlah satu proyek kecil yang sederhana, seperti aplikasi kalkulator, to-do list, atau web portofolio pribadi, lalu cobalah membangunnya dari nol. Ketika Anda mengalami error (yang merupakan hal yang sangat wajar bagi setiap programmer), mulailah belajar cara melakukan debugging dan memanfaatkan komunitas online seperti Stack Overflow atau dokumentasi resmi. Konsistensi latihan harian jauh lebih penting daripada belajar seharian penuh namun hanya sekali seminggu. Di Tembus Digital, kami memandu para calon programmer dengan kurikulum praktis berbasis proyek agar Anda bisa belajar secara efektif hingga mahir.`,
     date: "22 Juli 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=600&auto=format&fit=crop",
     category: "Edukasi"
   },
   {
-    title: "Rekomendasi Kursus Pemrograman Intensif di EL Project",
-    excerpt: "Temukan program belajar coding dari nol hingga siap kerja (sampai bisa) bersama mentor berpengalaman di EL Project.",
-    content: `Apakah Anda ingin beralih profesi menjadi software engineer profesional atau ingin mendalami keterampilan teknologi baru? EL Project menghadirkan solusi program kursus dan mentoring belajar pemrograman intensif yang dirancang secara terarah untuk membantu Anda menguasai keahlian coding secara praktis dari dasar sampai bisa.
+    title: "Rekomendasi Kursus Pemrograman Intensif di Tembus Digital",
+    excerpt: "Temukan program belajar coding dari nol hingga siap kerja (sampai bisa) bersama mentor berpengalaman di Tembus Digital.",
+    content: `Apakah Anda ingin beralih profesi menjadi software engineer profesional atau ingin mendalami keterampilan teknologi baru? Tembus Digital menghadirkan solusi program kursus dan mentoring belajar pemrograman intensif yang dirancang secara terarah untuk membantu Anda menguasai keahlian coding secara praktis dari dasar sampai bisa.
 
 Program kursus kami dirancang khusus dengan kurikulum berstandar industri terkini. Kami menawarkan tiga spesialisasi utama:
 1. Full-Stack Web Development (menggunakan React, TypeScript, Node.js, dan TailwindCSS) untuk membangun aplikasi web modern dan dinamis.
 2. Mobile App Development (menggunakan Flutter, Swift, dan Kotlin) untuk merancang aplikasi Android & iOS berkinerja tinggi.
 3. Backend Engineering & Cloud Infrastructure (menggunakan Node.js, Go, Python, dan arsitektur database Supabase/PostgreSQL) untuk sistem berskala besar.
 
-Sistem pembelajaran di EL Project berfokus pada bimbingan interaktif semi-privat yang dipandu langsung oleh mentor berpengalaman yang merupakan praktisi aktif di industri. Anda tidak hanya akan mempelajari teori, tetapi juga terlibat langsung dalam pengerjaan proyek nyata (real-world projects) yang nantinya dapat dijadikan portofolio berharga saat melamar pekerjaan. Kami juga memberikan sesi konsultasi karier untuk mempersiapkan Anda menghadapi proses interview kerja di dunia teknologi. Bergabunglah bersama kami di EL Project dan mulailah perjalanan karier teknologi Anda hari ini!`,
+Sistem pembelajaran di Tembus Digital berfokus pada bimbingan interaktif semi-privat yang dipandu langsung oleh mentor berpengalaman yang merupakan praktisi aktif di industri. Anda tidak hanya akan mempelajari teori, tetapi juga terlibat langsung dalam pengerjaan proyek nyata (real-world projects) yang nantinya dapat dijadikan portofolio berharga saat melamar pekerjaan. Kami juga memberikan sesi konsultasi karier untuk mempersiapkan Anda menghadapi proses interview kerja di dunia teknologi. Bergabunglah bersama kami di Tembus Digital dan mulailah perjalanan karier teknologi Anda hari ini!`,
     date: "15 Juli 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=600&auto=format&fit=crop",
     category: "Edukasi"
   },
@@ -90,7 +90,7 @@ JavaScript adalah satu-satunya bahasa pemrograman yang dapat berjalan secara baw
 
 Menguasai JavaScript dan TypeScript memberikan Anda kebebasan untuk berpindah ekosistem dengan sangat mudah. Di sisi frontend, Anda dapat membangun aplikasi interaktif dengan framework populer seperti React, Next.js, atau Vue. Di sisi backend, Anda dapat menggunakan Node.js untuk menangani API server. Keahlian dalam TypeScript sangat diminati oleh startup teknologi maupun perusahaan besar karena kemampuannya meningkatkan produktivitas tim dan kualitas kode dalam proyek berskala besar.`,
     date: "08 Juli 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop",
     category: "Teknologi"
   },
@@ -101,9 +101,9 @@ Menguasai JavaScript dan TypeScript memberikan Anda kebebasan untuk berpindah ek
 
 Supabase sering kali disebut sebagai alternatif open-source dari Google Firebase, tetapi dengan keunggulan yang unik: Supabase dibangun di atas database relasional PostgreSQL yang sangat kuat dan terpercaya. Supabase menyediakan berbagai fitur siap pakai yang biasanya memakan waktu berbulan-bulan untuk dikembangkan sendiri dari nol. Fitur tersebut meliputi sistem otentikasi pengguna (authentication) yang aman dengan berbagai pilihan sosial login, penyimpanan file (storage) untuk gambar dan dokumen, API RESTful dan GraphQL yang dibuat secara otomatis, serta database real-time yang langsung sinkron secara instan.
 
-Dengan menggunakan Supabase, Anda dapat menghemat waktu dan sumber daya finansial secara signifikan karena tidak perlu menyewa backend developer khusus untuk setup server, database, dan sistem keamanan dasar secara manual. Fokus utama Anda dapat dialihkan sepenuhnya untuk menyempurnakan antarmuka pengguna (frontend) dan fitur utama produk. EL Project merekomendasikan penggunaan Supabase bagi proyek-proyek modern untuk memastikan performa yang cepat, biaya operasional yang efisien, serta kemudahan pengembangan di masa depan.`,
+Dengan menggunakan Supabase, Anda dapat menghemat waktu dan sumber daya finansial secara signifikan karena tidak perlu menyewa backend developer khusus untuk setup server, database, dan sistem keamanan dasar secara manual. Fokus utama Anda dapat dialihkan sepenuhnya untuk menyempurnakan antarmuka pengguna (frontend) dan fitur utama produk. Tembus Digital merekomendasikan penggunaan Supabase bagi proyek-proyek modern untuk memastikan performa yang cepat, biaya operasional yang efisien, serta kemudahan pengembangan di masa depan.`,
     date: "01 Juli 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=600&auto=format&fit=crop",
     category: "Teknologi"
   },
@@ -114,9 +114,9 @@ Dengan menggunakan Supabase, Anda dapat menghemat waktu dan sumber daya finansia
 
 Pertama, ada Aplikasi Kasir (Point of Sales/POS) dan Sistem Manajemen Inventaris yang berfungsi untuk mengotomatisasi pencatatan stok dan transaksi komersial secara instan. Kedua, Toko Online (E-Commerce) dan Marketplace yang memungkinkan transaksi jual-beli berjalan secara online dengan integrasi Payment Gateway dan jasa ekspedisi. Ketiga, Aplikasi Sistem Antrean Digital yang biasa diterapkan pada klinik, rumah sakit, perbankan, maupun kantor pelayanan publik guna mengoptimalkan alur pelayanan secara efisien.
 
-Keempat, Aplikasi Kustom Enterprise (ERP/CRM) yang membantu bisnis skala besar mengelola data karyawan, operasional rantai pasokan (supply chain), hingga hubungan pelanggan. Terakhir, ada Aplikasi berbasis Internet of Things (IoT) dan integrasi kecerdasan buatan (AI) yang menghubungkan perangkat keras cerdas dengan sistem kontrol berbasis awan (cloud). Di EL Project, kami memiliki spesialisasi dan pengalaman luas dalam merancang dan membangun seluruh kategori aplikasi tersebut untuk menunjang pertumbuhan bisnis Anda.`,
+Keempat, Aplikasi Kustom Enterprise (ERP/CRM) yang membantu bisnis skala besar mengelola data karyawan, operasional rantai pasokan (supply chain), hingga hubungan pelanggan. Terakhir, ada Aplikasi berbasis Internet of Things (IoT) dan integrasi kecerdasan buatan (AI) yang menghubungkan perangkat keras cerdas dengan sistem kontrol berbasis awan (cloud). Di Tembus Digital, kami memiliki spesialisasi dan pengalaman luas dalam merancang dan membangun seluruh kategori aplikasi tersebut untuk menunjang pertumbuhan bisnis Anda.`,
     date: "24 Juni 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=600&auto=format&fit=crop",
     category: "Bisnis"
   },
@@ -127,13 +127,13 @@ Keempat, Aplikasi Kustom Enterprise (ERP/CRM) yang membantu bisnis skala besar m
 
 Alasan paling mendasar pentingnya maintenance adalah keamanan siber. Peretas (hackers) selalu menemukan celah keamanan baru setiap harinya. Tanpa adanya pembaruan (patching) berkala pada sistem operasi server, database, dan library pihak ketiga, aplikasi bisnis Anda akan rentan terhadap serangan siber dan pencurian data sensitif pelanggan. Selain itu, seiring dengan pertumbuhan bisnis, jumlah data transaksi dan pengguna yang masuk ke dalam database akan terus bertambah. Maintenance rutin membantu melakukan optimasi database dan server agar aplikasi tidak mengalami kelambatan akses (loading lama) saat diakses oleh banyak pengguna secara bersamaan.
 
-Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memastikan aplikasi Anda tetap kompatibel dengan pembaruan perangkat keras dan sistem operasi terbaru (seperti pembaruan iOS dan Android terbaru). Dengan melakukan investasi pada paket maintenance jangka panjang dari pengembang profesional seperti EL Project, Anda dapat mengantisipasi masalah sebelum terjadi (preventive maintenance), meminimalisir waktu gangguan sistem (downtime), serta memastikan investasi produk digital Anda terus memberikan nilai bisnis yang optimal bagi masa depan perusahaan.`,
+Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memastikan aplikasi Anda tetap kompatibel dengan pembaruan perangkat keras dan sistem operasi terbaru (seperti pembaruan iOS dan Android terbaru). Dengan melakukan investasi pada paket maintenance jangka panjang dari pengembang profesional seperti Tembus Digital, Anda dapat mengantisipasi masalah sebelum terjadi (preventive maintenance), meminimalisir waktu gangguan sistem (downtime), serta memastikan investasi produk digital Anda terus memberikan nilai bisnis yang optimal bagi masa depan perusahaan.`,
     date: "17 Juni 2026",
-    author: "Artikel EL PROJECT",
+    author: "Artikel TEMBUS DIGITAL",
     image: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?q=80&w=600&auto=format&fit=crop",
     category: "Bisnis"
   }
-];function BlogPage() {
+]; function BlogPage() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [selectedPostIndex, setSelectedPostIndex] = useState<number | null>(null);
 
@@ -150,14 +150,14 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
         <div className="w-full max-w-[96vw] 2xl:max-w-[1600px] mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center lg:w-1/3">
             <Link to="/" className="group font-display text-xl font-bold tracking-wider flex items-center relative pb-1 ml-0 md:ml-12">
-              <span className="relative inline-block shine-text" data-text="ELPROJECT">
-                <span className="text-foreground/90 transition-colors duration-300 group-hover:text-primary">EL</span>
-                <span className="text-gradient">PROJECT</span>
+              <span className="relative inline-block shine-text" data-text="TEMBUSDIGITAL">
+                <span className="text-foreground/90 transition-colors duration-300 group-hover:text-primary">TEMBUS</span>
+                <span className="text-gradient">DIGITAL</span>
               </span>
               <span className="absolute bottom-0 left-0 w-full h-[2px] rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" style={{ background: "var(--gradient-primary)" }} />
             </Link>
           </div>
-            
+
           <nav className="hidden lg:flex items-center justify-center gap-8 lg:w-1/3">
             <Link to="/" className="text-sm font-bold text-foreground/80 hover:text-primary transition-colors">Beranda</Link>
             <a href="/#portofolio" className="text-sm font-bold text-foreground/80 hover:text-primary transition-colors">Konsep</a>
@@ -165,7 +165,7 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
           </nav>
 
           <div className="flex items-center justify-end lg:w-1/3">
-            <a href="https://wa.me/6283867180887?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.elproject.studio" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12 mr-10">Konsultasi <ChevronRight className="w-4 h-4" /></a>
+            <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12 mr-10">Konsultasi <ChevronRight className="w-4 h-4" /></a>
             <button
               className="lg:hidden p-2 -mr-2 text-foreground/80 hover:text-primary transition-colors cursor-pointer"
               onClick={() => setIsMobileMenuOpen(true)}
@@ -192,7 +192,7 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
             <a href="/#portofolio" onClick={() => setIsMobileMenuOpen(false)} className="font-bold text-lg text-foreground/80 transition-all duration-300 hover:text-primary hover:scale-105">Konsep</a>
             <Link to="/blog" onClick={() => { setSelectedPostIndex(null); setIsMobileMenuOpen(false); }} className="font-bold text-lg text-gradient hover:opacity-80 transition-all duration-300 hover:scale-105">Wawasan</Link>
             <div className="w-full h-px bg-border/50 my-2" />
-            <a href="https://wa.me/6283867180887?text=halo" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
+            <a href="https://wa.me/6281253822525?text=halo" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
               Konsultasi
             </a>
           </nav>
@@ -203,7 +203,7 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
         /* DETAIL VIEW SECTION */
         <section className="pt-32 pb-24 px-6 relative max-w-[96vw] 2xl:max-w-[800px] mx-auto z-10">
           <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-primary/15 rounded-full blur-[100px] -z-10 pointer-events-none opacity-45" />
-          
+
           <button
             onClick={() => setSelectedPostIndex(null)}
             className="inline-flex items-center gap-2 text-sm font-semibold text-muted-foreground hover:text-primary mb-8 transition-colors cursor-pointer"
@@ -240,10 +240,10 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent -z-10" />
             <h4 className="text-lg md:text-xl font-bold mb-3">Tertarik Belajar Pemrograman Bersama Kami?</h4>
             <p className="text-xs md:text-sm text-muted-foreground mb-6 max-w-md mx-auto">
-              Daftar kelas kursus / mentoring privat intensif sekarang juga di EL Project dan kuasai coding sampai bisa!
+              Daftar kelas kursus / mentoring privat intensif sekarang juga di Tembus Digital dan kuasai coding sampai bisa!
             </p>
             <a
-              href={`https://wa.me/6283867180887?text=Halo%20EL%20Project,%20saya%20tertarik%20mengikuti%20kursus%20pemrograman%20setelah%20membaca%20artikel%20"${encodeURIComponent(activePost.title)}"`}
+              href={`https://wa.me/6281253822525?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mengikuti%20kursus%20pemrograman%20setelah%20membaca%20artikel%20"${encodeURIComponent(activePost.title)}"`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex text-xs md:text-sm !py-2.5 !px-8 cursor-pointer"
@@ -311,7 +311,7 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
 
       {/* FOOTER */}
       <footer className="border-t border-border/40 py-8 px-6 text-center text-[10px] md:text-xs text-muted-foreground transition-all duration-300 hover:text-primary hover:drop-shadow-[0_0_8px_var(--color-primary)] cursor-default">
-        © 2026 EL PROJECT DEVELOPMENT BUILDER WEB APPS © 2026
+        © 2026 Powered by tembus digital © 2026
       </footer>
     </main>
   );

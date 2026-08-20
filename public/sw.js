@@ -1,4 +1,4 @@
-const CACHE_NAME = 'elproject-v1';
+const CACHE_NAME = 'tembusdigital-v1';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

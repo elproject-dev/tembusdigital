@@ -78,23 +78,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Jasa Buat Aplikasi Mobile, Web, Desktop & Server | EL Project" },
-      { name: "description", content: "Cari jasa buat aplikasi? EL Project menyediakan jasa pembuatan aplikasi mobile (Android & iOS), desktop, website modern, sistem ERP, hingga aplikasi kasir dengan harga terjangkau." },
-      { name: "keywords", content: "jasa buat aplikasi, jasa buat aplikasi mobile, jasa buat aplikasi web, jasa buat aplikasi kasir, jasa pembuatan aplikasi, jasa pembuatan website, aplikasi mobile android, ios developer, bikin aplikasi desktop, web developer indonesia, konsultan it, jasa pembuatan server, konten kreatif, el project, elproject studio, software house, jasa pembuatan aplikasi jogja, jasa pembuatan website yogyakarta, software house jogja, web developer yogyakarta, bikin aplikasi android jogja, ios developer yogyakarta, pembuatan aplikasi kasir jogja, jasa it yogyakarta, developer aplikasi jogja, el project yogyakarta, elproject studio, konsultan it jogja, jasa pembuatan server yogyakarta, software house indonesia, jasa pembuatan aplikasi jakarta, jasa pembuatan website jakarta, software house jakarta, web developer jakarta, bikin aplikasi android jakarta, ios developer jakarta, pembuatan aplikasi kasir jakarta, jasa it jakarta, developer aplikasi jakarta, el project jakarta, elproject studio, konsultan it jakarta, jasa pembuatan server jakarta, software house jakarta" },
+      { title: "Jasa Buat Aplikasi Mobile, Web, Desktop & Server | Tembus Digital" },
+      { name: "description", content: "Cari jasa buat aplikasi? Tembus Digital menyediakan jasa pembuatan aplikasi mobile (Android & iOS), desktop, website modern, sistem ERP, hingga aplikasi kasir dengan harga terjangkau." },
+      { name: "keywords", content: "jasa buat aplikasi, jasa buat aplikasi mobile, jasa buat aplikasi web, jasa buat aplikasi kasir, jasa pembuatan aplikasi, jasa pembuatan website, aplikasi mobile android, ios developer, bikin aplikasi desktop, web developer indonesia, konsultan it, jasa pembuatan server, konten kreatif, tembus digital, tembusdigital studio, software house, jasa pembuatan aplikasi jogja, jasa pembuatan website yogyakarta, software house jogja, web developer yogyakarta, bikin aplikasi android jogja, ios developer yogyakarta, pembuatan aplikasi kasir jogja, jasa it yogyakarta, developer aplikasi jogja, tembus digital yogyakarta, tembusdigital studio, konsultan it jogja, jasa pembuatan server yogyakarta, software house indonesia, jasa pembuatan aplikasi jakarta, jasa pembuatan website jakarta, software house jakarta, web developer jakarta, bikin aplikasi android jakarta, ios developer jakarta, pembuatan aplikasi kasir jakarta, jasa it jakarta, developer aplikasi jakarta, tembus digital jakarta, tembusdigital studio, konsultan it jakarta, jasa pembuatan server jakarta, software house jakarta" },
       { name: "robots", content: "index, follow" },
-      { name: "author", content: "EL Project" },
-      { property: "og:title", content: "Jasa Buat Aplikasi Mobile, Web, Desktop & Server | EL Project" },
-      { property: "og:description", content: "Cari jasa buat aplikasi? EL Project menyediakan jasa pembuatan aplikasi mobile (Android & iOS), desktop, website modern, sistem ERP, hingga aplikasi kasir dengan harga terjangkau." },
+      { name: "author", content: "Tembus Digital" },
+      { property: "og:title", content: "Jasa Buat Aplikasi Mobile, Web, Desktop & Server | Tembus Digital" },
+      { property: "og:description", content: "Cari jasa buat aplikasi? Tembus Digital menyediakan jasa pembuatan aplikasi mobile (Android & iOS), desktop, website modern, sistem ERP, hingga aplikasi kasir dengan harga terjangkau." },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "https://www.elproject.studio/og-image.jpg" },
+      { property: "og:image", content: "https://www.tembusdigital.com/og-image.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jasa Buat Aplikasi Mobile, Web, Desktop & Server | EL Project" },
-      { name: "twitter:description", content: "Cari jasa buat aplikasi? EL Project menyediakan jasa pembuatan aplikasi mobile, desktop, web apps, hingga server dan konsultasi bisnis." },
-      { name: "twitter:image", content: "https://www.elproject.studio/og-image.jpg" },
+      { name: "twitter:title", content: "Jasa Buat Aplikasi Mobile, Web, Desktop & Server | Tembus Digital" },
+      { name: "twitter:description", content: "Cari jasa buat aplikasi? Tembus Digital menyediakan jasa pembuatan aplikasi mobile, desktop, web apps, hingga server dan konsultasi bisnis." },
+      { name: "twitter:image", content: "https://www.tembusdigital.com/og-image.jpg" },
       { name: "theme-color", content: "#000000" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.elproject.studio" },
+      { rel: "canonical", href: "https://www.tembusdigital.com" },
       { rel: "manifest", href: "/manifest.json" },
       { rel: "icon", href: "/icon.svg", type: "image/svg+xml" },
       { rel: "apple-touch-icon", href: "/icon.svg" },
@@ -127,9 +127,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
           "name": "Jasa Pembuatan Aplikasi Mobile, Web, Desktop & Server, Kursus Pemrograman Sampai Bisa, Mentoring Coding Programmer Profesional, Kelas Belajar Coding Pemula hingga Mahir",
-          "image": "https://www.elproject.studio/og-image.jpg",
-          "url": "https://www.elproject.studio",
-          "telephone": "+6283867180887",
+          "image": "https://www.tembusdigital.com/og-image.jpg",
+          "url": "https://www.tembusdigital.com",
+          "telephone": "+6281253822525",
           "priceRange": "Rp 1.000.000 - Custom",
           "knowsAbout": [
             "Layanan Kursus Pemrograman Sampai Bisa",
@@ -358,11 +358,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             "@type": "PostalAddress",
             "addressCountry": "ID",
             "areaServed": "Indonesia, Global",
-            "telephone": "+6283867180887"
+            "telephone": "+6281253822525"
           },
           "hasMap": "https://maps.app.goo.gl/2Zz55g4VUP2fi1Ya6",
           "sameAs": [
-            "https://www.instagram.com/elproject_development"
+            "https://www.instagram.com/tembusdigital"
           ],
           "description": "Kami adalah salah satu penyedia layanan jasa pembuatan aplikasi mobile, dekstop, ios dan website, aplikasi mobile android, ios, desktop, serta web app. Kami menyediakan jasa pembuatan server juga, konsultasi bisnis, serta menyediakan jasa pembuatan Konten Kreatif. Kami akan memberikan rekomendasi dan arahan terbaik untuk bisnis Anda"
         })
@@ -375,23 +375,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Apa saja layanan yang disediakan oleh EL Project?",
+              "name": "Apa saja layanan yang disediakan oleh Tembus Digital?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "EL Project menyediakan jasa pembuatan aplikasi mobile (Android & iOS), aplikasi desktop (Windows, macOS, Linux), website modern (landing page, e-commerce, web app), pembuatan & manajemen server, serta konsultasi IT & bisnis profesional."
+                "text": "Tembus Digital menyediakan jasa pembuatan aplikasi mobile (Android & iOS), aplikasi desktop (Windows, macOS, Linux), website modern (landing page, e-commerce, web app), pembuatan & manajemen server, serta konsultasi IT & bisnis profesional."
               }
             },
             {
               "@type": "Question",
-              "name": "Bagaimana cara berkonsultasi atau memesan layanan di EL Project?",
+              "name": "Bagaimana cara berkonsultasi atau memesan layanan di Tembus Digital?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Anda dapat menghubungi kami langsung melalui nomor WhatsApp resmi di +62 838 6718 0887 atau mengirim pesan langsung (DM) ke akun Instagram kami di @elproject_development."
+                "text": "Anda dapat menghubungi kami langsung melalui nomor WhatsApp resmi di +62 812 5382 2525 atau mengirim pesan langsung (DM) ke akun Instagram kami di @tembusdigital."
               }
             },
             {
               "@type": "Question",
-              "name": "Berapa biaya pembuatan aplikasi atau website di EL Project?",
+              "name": "Berapa biaya pembuatan aplikasi atau website di Tembus Digital?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Biaya pengembangan bervariasi mulai dari Rp 1.000.000, tergantung pada kompleksitas fitur, platform yang digunakan (web, mobile, atau desktop), serta estimasi waktu pengerjaan. Kami selalu memberikan opsi penawaran terbaik yang sesuai dengan anggaran dan kebutuhan bisnis Anda."
@@ -399,7 +399,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             },
             {
               "@type": "Question",
-              "name": "Teknologi dan tools apa saja yang digunakan oleh EL Project?",
+              "name": "Teknologi dan tools apa saja yang digunakan oleh Tembus Digital?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Kami menggunakan berbagai tumpukan teknologi dan tools modern seperti Javascript, React, SwiftUI, Next.js, Flutter, Node.js, Figma, AWS, Firebase, GitHub, Supabase, Canva, Python, TypeScript, TanStack Start, TailwindCSS, dan Nitro/Vercel serverless."
@@ -407,7 +407,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             },
             {
               "@type": "Question",
-              "name": "Apakah EL Project menyediakan layanan pasca-pembuatan (maintenance & support)?",
+              "name": "Apakah Tembus Digital menyediakan layanan pasca-pembuatan (maintenance & support)?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Ya, setiap proyek yang kami kerjakan dilengkapi dengan masa garansi pemeliharaan (maintenance) gratis untuk memastikan aplikasi berjalan lancar dan bebas dari bug. Kami juga menawarkan paket dukungan jangka panjang untuk pembaruan fitur atau kapasitas server."
@@ -415,7 +415,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             },
             {
               "@type": "Question",
-              "name": "Apakah EL Project menyediakan kursus atau kelas belajar pemrograman?",
+              "name": "Apakah Tembus Digital menyediakan kursus atau kelas belajar pemrograman?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Ya, kami menyediakan layanan kursus dan mentoring belajar pemrograman intensif secara terarah dari pemula (nol) hingga tingkat mahir (sampai bisa) untuk menguasai teknologi modern sesuai standar kebutuhan industri."
