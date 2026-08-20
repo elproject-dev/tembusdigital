@@ -239,7 +239,7 @@ function Index() {
       const portofolioSection = document.getElementById('portofolio');
       if (portofolioSection) {
         const rect = portofolioSection.getBoundingClientRect();
-        if (rect.top <= 300 && rect.bottom >= 300) {
+        if (rect.top <= 300) {
           setActiveSection('portofolio');
         } else {
           setActiveSection('home');
