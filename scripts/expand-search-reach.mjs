@@ -21,8 +21,8 @@ const PUBLIC_DIR = path.join(ROOT, "public");
 
 const SITE = {
   name: "Tembus Digital",
-  domain: "www.tembusdigital.com",
-  url: "https://www.tembusdigital.com",
+  domain: "www.tembusdigital.studio",
+  url: "https://www.tembusdigital.studio",
   brand: ["tembus digital", "tembusdigital", "tembusdigital studio", "tembus digital studio"],
   phone: "+62 812 5382 2525",
   wa: "https://wa.me/6281253822525",
@@ -247,8 +247,8 @@ JavaScript, TypeScript, Python, Swift, Kotlin, Go, React, Next.js, TanStack Star
 - [Beranda](${SITE.url}/)
 - [Showcase Portofolio](${SITE.url}/showcase)
 - [Blog & Artikel](${SITE.url}/blog)
-- [Tembus Digital App](https://app.tembusdigital.com/)
-- [Tembus Digital Movies](https://movies.tembusdigital.com/)
+- [Tembus Digital App](https://www.tembusdigital.studio/)
+- [Tembus Digital Movies](https://www.tembusdigital.studio/)
 - [Sitemap](${SITE.url}/sitemap.xml)
 - [Kontak WhatsApp](${SITE.wa})
 
@@ -269,7 +269,7 @@ function buildAiPromptPack(keywords) {
       "Kursus pemrograman dari nol sampai bisa kerja, rekomendasi di Yogyakarta",
       "Vendor IT terpercaya untuk bikin aplikasi desktop Windows custom",
       "Apa itu Tembus Digital?",
-      "tembusdigital.com review",
+      "tembusdigital.studio review",
       "Jasa pembuatan toko online + aplikasi kasir terintegrasi",
     ],
     citationTargets: keywords.slice(0, 25),
