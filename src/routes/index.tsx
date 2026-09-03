@@ -3,6 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Globe, Server, Search, PenTool, LineChart, ChevronRight, Shield, Code2, Star, Menu, X, Palette, ClockArrowUp, ShoppingCart, School, LayoutTemplate, CalendarCheck, Settings, Code } from "lucide-react";
 import { LuPaintbrushVertical } from "react-icons/lu";
 import { useReveal } from "@/hooks/use-reveal";
+import { LiveDemoModal } from "@/components/live-demo-modal";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -246,6 +247,7 @@ function Index() {
   const [currentTesti, setCurrentTesti] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+  const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -386,7 +388,7 @@ function Index() {
               Wujudkan <span className="text-gradient">Aplikasi</span> <span className="block mt-2 text-[0.64em]">Untuk Bisnis Modern Anda</span>
             </h1>
             <div className="w-full max-w-lg mx-auto lg:mx-0 mt-6 mb-10 md:mt-8 md:mb-12 flex flex-col sm:flex-row gap-4">
-              <a href="https://maga-swalayan.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn-primary flex-1 justify-center">Live Demo <ChevronRight className="w-4 h-4" /></a>
+              <button onClick={() => setIsDemoModalOpen(true)} className="btn-primary flex-1 justify-center cursor-pointer">Live Demo <ChevronRight className="w-4 h-4" /></button>
               <a href="#layanan" className="btn-ghost flex-1 justify-center">Lihat Layanan</a>
             </div>
 
@@ -779,6 +781,9 @@ function Index() {
       <footer className="border-t border-border/40 py-8 px-6 text-center text-[10px] md:text-xs text-muted-foreground transition-all duration-300 hover:text-primary hover:drop-shadow-[0_0_8px_var(--color-primary)] cursor-default">
         © 2026 Powered by tembus digital © 2026
       </footer>
+
+      {/* Live Demo Selection Pop-up Modal */}
+      <LiveDemoModal isOpen={isDemoModalOpen} onClose={() => setIsDemoModalOpen(false)} />
     </main>
   );
 }

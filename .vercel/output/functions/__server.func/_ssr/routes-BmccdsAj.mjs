@@ -1,9 +1,9 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { d as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { S as CalendarCheck, _ as ClockArrowUp, a as Settings, b as ChartLine, c as Search, d as Palette, f as Menu, g as CodeXml, h as Code, i as Shield, l as School, m as Globe, n as Star, o as Server, p as LayoutTemplate, r as ShoppingCart, t as X, u as PenTool, v as ChevronRight } from "../_libs/lucide-react.mjs";
+import { A as CalendarCheck, C as Code, E as ChevronRight, O as ChartLine, S as ExternalLink, T as ClockArrowUp, _ as Menu, a as Sparkles, b as Globe, c as Shield, f as Search, g as MessageSquare, h as Palette, i as Star, k as Calendar, l as Settings, m as PenTool, n as Wallet, o as ShoppingCart, p as School, r as Ticket, s as ShoppingBag, t as X, u as Server, v as LayoutTemplate, w as CodeXml, x as Film, y as LayoutDashboard } from "../_libs/lucide-react.mjs";
 import { t as LuPaintbrushVertical } from "../_libs/react-icons.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CcPUMOgT.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BmccdsAj.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function useReveal() {
@@ -20,6 +20,225 @@ function useReveal() {
 		els.forEach((el) => io.observe(el));
 		return () => io.disconnect();
 	}, []);
+}
+var DEMO_ITEMS = [
+	{
+		id: "maga-swalayan",
+		title: "Maga Swalayan & Toko Online",
+		category: "E-Commerce / Retail",
+		description: "Platform swalayan & e-commerce modern dengan katalog produk, keranjang belanja, dan manajemen transaksi.",
+		tags: [
+			"React / Web App",
+			"Katalog Produk",
+			"Shopping Cart"
+		],
+		url: "https://maga-swalayan.vercel.app/",
+		badge: "Populer 🔥",
+		icon: ShoppingBag
+	},
+	{
+		id: "toko-ungu",
+		title: "Toko Ungu - E-Commerce",
+		category: "Toko Online & E-Commerce",
+		description: "Website e-commerce & toko online interaktif dengan katalog produk, keranjang belanja, dan tampilan modern.",
+		tags: [
+			"Toko Online",
+			"Shopping Cart",
+			"Responsive Web"
+		],
+		url: "https://toko-ungu.vercel.app/",
+		badge: "Live Demo 🛍️",
+		icon: ShoppingBag
+	},
+	{
+		id: "finance-cashflow",
+		title: "Aplikasi Keuangan & Arus Kas",
+		category: "Keuangan & Akuntansi",
+		description: "Sistem pencatatan keuangan arus kas masuk & keluar, laporan keuangan bulanan, dan manajemen anggaran.",
+		tags: [
+			"Arus Kas",
+			"Laporan Keuangan",
+			"Pemasukan & Pengeluaran"
+		],
+		url: "https://jmb-liart.vercel.app/",
+		badge: "Live Demo 💸",
+		icon: Wallet
+	},
+	{
+		id: "movies-app",
+		title: "Aplikasi Streaming & Informasi Film",
+		category: "Entertainment & Media",
+		description: "Platform streaming film & hiburan dengan katalog bioskop, pencarian cepat, sinopsis, dan UI modern.",
+		tags: [
+			"Movie App",
+			"Streaming UI",
+			"Media Platform"
+		],
+		url: "https://movies.elproject.studio/",
+		badge: "Live Demo 🎬",
+		icon: Film
+	},
+	{
+		id: "ticket-event",
+		title: "Sistem Tiket Event & Konser",
+		category: "Ticketing & Event",
+		description: "Platform pemesanan tiket event & konser online dengan sistem e-ticket, QR code check-in, dan manajemen tiket.",
+		tags: [
+			"Event Ticket",
+			"E-Ticket QR",
+			"Booking Online"
+		],
+		url: "https://ticket-event-flame.vercel.app/",
+		badge: "Live Demo 🎫",
+		icon: Ticket
+	},
+	{
+		id: "booking-app",
+		title: "Sistem Booking & Antrean Digital",
+		category: "Reservasi & Jasa",
+		description: "Sistem reservasi jadwal otomatis untuk klinik, salon, bengkel, dan manajemen antrean pelanggan.",
+		tags: [
+			"Booking System",
+			"Jadwal Otomatis",
+			"Antrean HP"
+		],
+		url: "https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mencoba%20demo%20Sistem%20Booking%20%26%20Antrean",
+		badge: "Interactive",
+		icon: Calendar,
+		isExternal: true
+	},
+	{
+		id: "erp-dashboard",
+		title: "Dashboard ERP & Analytic Bisnis",
+		category: "Enterprise System",
+		description: "Dashboard executive monitoring performa bisnis, statistik realtime, dan manajemen karyawan.",
+		tags: [
+			"Analytics UI",
+			"Grafik Realtime",
+			"Multi-Role"
+		],
+		url: "https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mencoba%20demo%20Dashboard%20ERP",
+		badge: "Enterprise",
+		icon: LayoutDashboard,
+		isExternal: true
+	},
+	{
+		id: "custom-demo",
+		title: "Minta Demo Custom / Konsultasi Gratis",
+		category: "Custom Web & Mobile",
+		description: "Membutuhkan sistem aplikasi dengan alur bisnis khusus? Konsultasikan ide Anda secara langsung.",
+		tags: [
+			"Mobile App",
+			"Web App Custom",
+			"Konsultasi IT"
+		],
+		url: "https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20ingin%20meminta%20demo%20aplikasi%20custom%20sesuai%20kebutuhan%20bisnis%20saya",
+		badge: "Custom Request",
+		icon: MessageSquare,
+		isExternal: true
+	}
+];
+function LiveDemoModal({ isOpen, onClose }) {
+	if (!isOpen) return null;
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto animate-in fade-in duration-200",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "fixed inset-0 bg-black/85 backdrop-blur-md transition-opacity",
+			onClick: onClose
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "relative w-full max-w-2xl bg-[#0f0b17] border border-purple-500/30 rounded-2xl shadow-[0_0_50px_rgba(147,51,234,0.25)] overflow-hidden z-10 flex flex-col my-auto max-h-[90vh]",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "bg-gradient-to-r from-[#1e1333] via-[#160c28] to-[#0f0b17] p-5 border-b border-purple-500/20 flex items-center justify-between",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "flex items-center gap-2 mb-1",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+								className: "px-2.5 py-0.5 rounded-full bg-purple-500/20 text-purple-300 text-[11px] font-semibold border border-purple-500/30 flex items-center gap-1",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-3 h-3 text-purple-400" }), " Live Demo Showcase"]
+							})
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "text-xl sm:text-2xl font-bold text-white font-display tracking-tight",
+							children: "Pilih Live Demo Aplikasi"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-xs sm:text-sm text-purple-200/70 mt-0.5",
+							children: "Pilih salah satu demo sistem yang ingin Anda coba secara langsung:"
+						})
+					] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+						onClick: onClose,
+						className: "w-9 h-9 rounded-full bg-purple-500/10 hover:bg-purple-500/25 text-purple-200 hover:text-white flex items-center justify-center transition-colors border border-purple-500/30 shrink-0",
+						"aria-label": "Tutup Pop-up Demo",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "w-5 h-5" })
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "p-4 sm:p-5 overflow-y-auto space-y-3.5 max-h-[60vh] [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden bg-[#0c0814]",
+					children: DEMO_ITEMS.map((item) => {
+						const IconComponent = item.icon;
+						return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "group relative bg-[#181226]/80 hover:bg-[#201736] border border-purple-500/20 hover:border-purple-500/60 rounded-2xl p-4 transition-all duration-300 hover:shadow-[0_8px_25px_rgba(147,51,234,0.2)] flex flex-col sm:flex-row sm:items-center justify-between gap-4",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-start gap-3.5",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "w-10 h-10 rounded-full bg-gradient-to-br from-purple-600/30 to-indigo-600/20 border border-purple-500/40 flex items-center justify-center text-purple-300 group-hover:scale-105 group-hover:text-purple-200 transition-all shrink-0 mt-0.5 shadow-inner",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(IconComponent, { className: "w-5 h-5" })
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex items-center gap-2 flex-wrap mb-1",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "text-[11px] font-semibold text-purple-400 tracking-wide uppercase",
+											children: item.category
+										}), item.badge && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "text-[10px] bg-purple-500/20 text-purple-200 border border-purple-500/35 px-2.5 py-0.5 rounded-full font-medium",
+											children: item.badge
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										className: "text-base font-bold text-white group-hover:text-purple-300 transition-colors",
+										children: item.title
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-xs text-gray-300 mt-1 leading-relaxed max-w-md",
+										children: item.description
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "flex flex-wrap gap-1.5 mt-2.5",
+										children: item.tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "text-[10px] bg-purple-950/40 text-purple-200/80 px-2.5 py-0.5 rounded-full border border-purple-500/15 font-mono",
+											children: tag
+										}, tag))
+									})
+								] })]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-purple-500/15 flex justify-end",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: item.url,
+									target: "_blank",
+									rel: "noopener noreferrer",
+									onClick: onClose,
+									className: "inline-flex items-center gap-1.5 px-4.5 py-2 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white text-xs font-semibold transition-all duration-200 shadow-md hover:shadow-purple-500/40 active:scale-95 group-hover:translate-x-0.5",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: item.isExternal ? "Hubungi CS" : "Uji Coba Demo" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ExternalLink, { className: "w-3.5 h-3.5" })]
+								})
+							})]
+						}, item.id);
+					})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "bg-[#130b21] px-5 py-3.5 border-t border-purple-500/20 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-purple-200/70",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Butuh aplikasi dengan desain & fitur khusus?" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						href: "https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20ingin%20diskusi%20pembuatan%20aplikasi%20custom",
+						target: "_blank",
+						rel: "noopener noreferrer",
+						onClick: onClose,
+						className: "text-purple-300 font-medium hover:text-white hover:underline flex items-center gap-1 transition-colors",
+						children: "Konsultasi Gratis via WhatsApp ↗"
+					})]
+				})
+			]
+		})]
+	});
 }
 var services = [
 	{
@@ -379,6 +598,7 @@ function Index() {
 	const [currentTesti, setCurrentTesti] = (0, import_react.useState)(0);
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = (0, import_react.useState)(false);
 	const [activeSection, setActiveSection] = (0, import_react.useState)("home");
+	const [isDemoModalOpen, setIsDemoModalOpen] = (0, import_react.useState)(false);
 	(0, import_react.useEffect)(() => {
 		const handleScroll = () => {
 			const portofolioSection = document.getElementById("portofolio");
@@ -555,11 +775,9 @@ function Index() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "w-full max-w-lg mx-auto lg:mx-0 mt-6 mb-10 md:mt-8 md:mb-12 flex flex-col sm:flex-row gap-4",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-									href: "https://maga-swalayan.vercel.app/",
-									target: "_blank",
-									rel: "noopener noreferrer",
-									className: "btn-primary flex-1 justify-center",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+									onClick: () => setIsDemoModalOpen(true),
+									className: "btn-primary flex-1 justify-center cursor-pointer",
 									children: ["Live Demo ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "w-4 h-4" })]
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 									href: "#layanan",
@@ -1165,6 +1383,10 @@ function Index() {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
 				className: "border-t border-border/40 py-8 px-6 text-center text-[10px] md:text-xs text-muted-foreground transition-all duration-300 hover:text-primary hover:drop-shadow-[0_0_8px_var(--color-primary)] cursor-default",
 				children: "© 2026 Powered by tembus digital © 2026"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(LiveDemoModal, {
+				isOpen: isDemoModalOpen,
+				onClose: () => setIsDemoModalOpen(false)
 			})
 		]
 	});
