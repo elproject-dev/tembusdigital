@@ -729,8 +729,7 @@ function Index() {
               Kami balas secepatnya
             </p>
             <div className="flex flex-wrap gap-4 justify-center relative z-20">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tembusdigital@gmail.com" target="_blank" rel="noopener noreferrer" className="btn-primary shadow-[0_0_15px_var(--color-primary)]">tembusdigital.com <ChevronRight className="w-4 h-4" /></a>
-              <a href="https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio" target="_blank" rel="noopener noreferrer" className="btn-ghost bg-background/50 backdrop-blur-sm border-white/10 hover:bg-white/10">Chat WhatsApp</a>
+              <a href="https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio" target="_blank" rel="noopener noreferrer" className="btn-primary shadow-[0_0_15px_var(--color-primary)]">Chat WhatsApp <ChevronRight className="w-4 h-4" /></a>
             </div>
           </div>
         </div>

@@ -1,9 +1,9 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { d as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { _ as ChevronRight, a as Settings, b as CalendarCheck, c as School, d as Menu, f as LayoutTemplate, g as ClockArrowUp, h as CodeXml, i as Shield, l as PenTool, m as Code, n as Star, o as Server, p as Globe, r as ShoppingCart, s as Search, t as X, u as Palette, v as ChartLine } from "../_libs/lucide-react.mjs";
+import { C as CalendarCheck, _ as CodeXml, a as Shield, d as PenTool, f as Palette, g as Code, h as Globe, i as ShoppingCart, l as Search, m as LayoutTemplate, n as Star, o as Settings, p as Menu, s as Server, t as X, u as School, v as ClockArrowUp, x as ChartLine, y as ChevronRight } from "../_libs/lucide-react.mjs";
 import { t as LuPaintbrushVertical } from "../_libs/react-icons.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-D1gkM85y.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CcPUMOgT.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function useReveal() {
@@ -1039,21 +1039,15 @@ function Index() {
 									"Kami balas secepatnya"
 								]
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								className: "flex flex-wrap gap-4 justify-center relative z-20",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-									href: "https://mail.google.com/mail/?view=cm&fs=1&to=tembusdigital@gmail.com",
-									target: "_blank",
-									rel: "noopener noreferrer",
-									className: "btn-primary shadow-[0_0_15px_var(--color-primary)]",
-									children: ["tembusdigital.com ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "w-4 h-4" })]
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 									href: "https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio",
 									target: "_blank",
 									rel: "noopener noreferrer",
-									className: "btn-ghost bg-background/50 backdrop-blur-sm border-white/10 hover:bg-white/10",
-									children: "Chat WhatsApp"
-								})]
+									className: "btn-primary shadow-[0_0_15px_var(--color-primary)]",
+									children: ["Chat WhatsApp ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "w-4 h-4" })]
+								})
 							})
 						]
 					})]
