@@ -113,11 +113,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       {
-        children: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W475F8Z5');`,
+        dangerouslySetInnerHTML: {
+          __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W475F8Z5');`,
+        },
         suppressHydrationWarning: true,
       },
       {
@@ -125,15 +123,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         async: true,
       },
       {
-        children: `window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-6VKWPQVQPQ');`,
+        dangerouslySetInnerHTML: {
+          __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-6VKWPQVQPQ');`,
+        },
         suppressHydrationWarning: true,
       },
       {
         type: "application/ld+json",
-        children: JSON.stringify({
+        dangerouslySetInnerHTML: {
+          __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
           "name": "Jasa Pembuatan Aplikasi Mobile, Web, Desktop & Server, Kursus Pemrograman Sampai Bisa, Mentoring Coding Programmer Profesional, Kelas Belajar Coding Pemula hingga Mahir",
@@ -376,10 +374,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           ],
           "description": "Kami adalah salah satu penyedia layanan jasa pembuatan aplikasi mobile, dekstop, ios dan website, aplikasi mobile android, ios, desktop, serta web app. Kami menyediakan jasa pembuatan server juga, konsultasi bisnis, serta menyediakan jasa pembuatan Konten Kreatif. Kami akan memberikan rekomendasi dan arahan terbaik untuk bisnis Anda"
         })
-      },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
+      }
+    },
+    {
+      type: "application/ld+json",
+      dangerouslySetInnerHTML: {
+        __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",
           "mainEntity": [
@@ -434,8 +434,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           ]
         })
       }
-    ]
-  }),
+    }
+  ]
+}),
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,

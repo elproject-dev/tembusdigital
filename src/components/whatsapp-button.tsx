@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { X, Send, CheckCheck, Sparkles } from "lucide-react";
+import { useState } from "react";
+import { X, Send, CheckCheck } from "lucide-react";
 
 const PHONE_NUMBER = "6281393412277";
 
@@ -13,21 +13,11 @@ const QUICK_TOPICS = [
 
 export function WhatsAppButton() {
   const [isOpen, setIsOpen] = useState(false);
-  const [showTooltip, setShowTooltip] = useState(true);
   const [message, setMessage] = useState("");
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
 
-  // Automatically show tooltip after 2 seconds on initial render
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowTooltip(true);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
   const handleOpenToggle = () => {
     setIsOpen((prev) => !prev);
-    if (showTooltip) setShowTooltip(false);
   };
 
   const handleSelectTopic = (topic: string) => {
@@ -48,49 +38,14 @@ export function WhatsAppButton() {
 
   return (
     <div className="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end font-sans">
-      {/* Floating Tooltip Bubble - Smooth Rounded */}
-      {!isOpen && showTooltip && (
-        <div className="mb-3 animate-fade-in transition-all duration-300 transform translate-y-0 opacity-100 max-w-[260px] sm:max-w-[300px]">
-          <div className="relative bg-[#1f2c34] text-white text-xs sm:text-sm px-4 py-3 rounded-2xl shadow-xl border border-white/10 flex items-start gap-2.5">
-            <div className="relative shrink-0 mt-0.5">
-              <span className="flex h-3 w-3 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
-              </span>
-            </div>
-            <div className="flex-1">
-              <p className="font-semibold text-emerald-400 mb-0.5 flex items-center gap-1">
-                Tembus Digital <Sparkles className="w-3 h-3" />
-              </p>
-              <p className="text-gray-200 text-[13px] leading-snug">
-                Ada yang bisa kami bantu? Yuk chat via WhatsApp! 👋
-              </p>
-            </div>
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setShowTooltip(false);
-              }}
-              className="text-gray-400 hover:text-white transition-colors -mr-1 -mt-1 p-1"
-              aria-label="Tutup"
-            >
-              <X className="w-3.5 h-3.5" />
-            </button>
-
-            {/* Triangle indicator pointing to button */}
-            <div className="absolute -bottom-1.5 right-6 w-3 h-3 bg-[#1f2c34] border-r border-b border-white/10 rotate-45 rounded-sm"></div>
-          </div>
-        </div>
-      )}
-
-      {/* Floating Chat Box Window - Smooth Rounded Corners */}
+      {/* Floating Chat Box Window - Slightly Rounded Corners (rounded-xl / rounded-lg) */}
       {isOpen && (
-        <div className="mb-4 w-[calc(100vw-2.5rem)] sm:w-[380px] max-h-[560px] bg-[#111b21] border border-white/15 rounded-3xl shadow-2xl overflow-hidden flex flex-col transition-all duration-300 animate-in fade-in slide-in-from-bottom-5">
+        <div className="mb-4 w-[calc(100vw-2.5rem)] sm:w-[380px] max-h-[560px] bg-[#0f171c] border border-white/15 rounded-xl shadow-2xl overflow-hidden flex flex-col transition-all duration-300 animate-in fade-in slide-in-from-bottom-5">
           {/* Header */}
-          <div className="bg-gradient-to-r from-[#00a884] to-[#128c7e] p-4 text-white flex items-center justify-between shadow-md">
+          <div className="bg-gradient-to-r from-[#00a884] to-[#128c7e] p-3.5 text-white flex items-center justify-between shadow-md rounded-t-xl">
             <div className="flex items-center gap-3">
               <div className="relative">
-                <div className="w-10 h-10 rounded-full bg-white/20 p-0.5 flex items-center justify-center font-bold text-white shadow-inner overflow-hidden border border-white/30">
+                <div className="w-9 h-9 rounded-full bg-white/20 p-0.5 flex items-center justify-center font-bold text-white shadow-inner overflow-hidden border border-white/30">
                   <img
                     src="/icon.svg"
                     alt="Tembus Digital Logo"
@@ -99,12 +54,11 @@ export function WhatsAppButton() {
                       (e.target as HTMLElement).style.display = "none";
                     }}
                   />
-                  <span className="text-sm font-black tracking-tighter">TD</span>
+                  <span className="text-xs font-black tracking-tighter">TD</span>
                 </div>
-                <span className="absolute bottom-0 right-0 w-3 h-3 bg-emerald-400 border-2 border-[#00a884] rounded-full"></span>
               </div>
               <div>
-                <h3 className="font-bold text-sm tracking-wide leading-snug text-white flex items-center gap-1.5">
+                <h3 className="font-bold text-sm tracking-wide text-white flex items-center gap-1.5">
                   Tembus Digital Support
                 </h3>
                 <p className="text-[11px] text-emerald-100 font-medium flex items-center gap-1">
@@ -115,7 +69,7 @@ export function WhatsAppButton() {
             </div>
             <button
               onClick={handleOpenToggle}
-              className="w-8 h-8 rounded-full bg-black/10 hover:bg-black/20 text-white/90 hover:text-white flex items-center justify-center transition-colors"
+              className="w-7 h-7 rounded-md bg-black/15 hover:bg-black/30 text-white/90 hover:text-white flex items-center justify-center transition-colors border border-white/10"
               aria-label="Tutup Chat"
             >
               <X className="w-4 h-4" />
@@ -124,7 +78,7 @@ export function WhatsAppButton() {
 
           {/* Chat Body */}
           <div
-            className="p-4 flex-1 overflow-y-auto space-y-4 max-h-[340px] text-sm bg-[#0b141a]"
+            className="p-4 flex-1 overflow-y-auto space-y-4 max-h-[340px] text-sm bg-[#0b141a] [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
             style={{
               backgroundImage:
                 "radial-gradient(circle at 50% 50%, rgba(37, 211, 102, 0.03) 0%, transparent 80%)",
@@ -132,14 +86,14 @@ export function WhatsAppButton() {
           >
             {/* Timestamp Badge */}
             <div className="text-center my-1">
-              <span className="text-[10px] bg-[#182229] text-gray-400 px-3 py-1 rounded-full border border-white/5">
+              <span className="text-[10px] bg-[#182229] text-gray-400 px-2.5 py-0.5 rounded-md border border-white/5 font-mono">
                 Hari ini
               </span>
             </div>
 
-            {/* Admin Greeting Message Bubble */}
+            {/* Admin Greeting Message Bubble - Slightly Rounded (rounded-lg) */}
             <div className="flex items-start gap-2.5 max-w-[88%]">
-              <div className="bg-[#202c33] text-gray-100 p-3.5 rounded-2xl rounded-tl-none border border-white/5 shadow-md space-y-2">
+              <div className="bg-[#1e2a30] text-gray-100 p-3 rounded-lg rounded-tl-none border border-white/10 shadow-md space-y-2">
                 <p className="text-xs font-semibold text-[#00a884]">Tembus Digital CS</p>
                 <p className="text-[13px] leading-relaxed text-gray-200">
                   Halo! 👋 Selamat datang di <strong>Tembus Digital</strong>.
@@ -154,20 +108,20 @@ export function WhatsAppButton() {
               </div>
             </div>
 
-            {/* Quick Topic Chips */}
+            {/* Quick Topic Chips - Slightly Rounded Buttons (rounded-md) */}
             <div className="pt-2">
-              <p className="text-[11px] font-medium text-gray-400 mb-2 px-1">
+              <p className="text-[11px] font-medium text-gray-400 mb-2 px-0.5">
                 Pilih topik pertanyaan cepat:
               </p>
-              <div className="flex flex-wrap gap-1.5">
+              <div className="flex flex-col gap-1.5">
                 {QUICK_TOPICS.map((topic) => (
                   <button
                     key={topic}
                     onClick={() => handleSelectTopic(topic)}
-                    className={`text-xs px-3 py-1.5 rounded-xl border transition-all text-left ${
+                    className={`text-xs px-3 py-2 rounded-md border transition-all text-left font-medium ${
                       selectedTopic === topic
                         ? "bg-[#00a884]/20 border-[#00a884] text-emerald-300 shadow-sm"
-                        : "bg-[#1f2c34]/80 border-white/10 text-gray-300 hover:bg-[#2a3942] hover:border-white/20"
+                        : "bg-[#182229] border-white/10 text-gray-300 hover:bg-[#222e35] hover:border-white/20"
                     }`}
                   >
                     {topic}
@@ -177,21 +131,21 @@ export function WhatsAppButton() {
             </div>
           </div>
 
-          {/* Chat Footer / Input Form */}
+          {/* Chat Footer / Input Form - Slightly Rounded (rounded-md) */}
           <form
             onSubmit={handleSendMessage}
-            className="p-3 bg-[#1f2c34] border-t border-white/10 flex items-center gap-2"
+            className="p-3 bg-[#182229] border-t border-white/10 flex items-center gap-2"
           >
             <input
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Tulis pesan ke WhatsApp..."
-              className="flex-1 bg-[#2a3942] text-white placeholder-gray-400 text-xs sm:text-sm px-3.5 py-2.5 rounded-xl border border-transparent focus:border-[#00a884] focus:outline-none transition-colors"
+              className="flex-1 bg-[#0b141a] text-white placeholder-gray-400 text-xs sm:text-sm px-3.5 py-2.5 rounded-md border border-white/10 focus:border-[#00a884] focus:outline-none transition-colors"
             />
             <button
               type="submit"
-              className="bg-[#00a884] hover:bg-[#008f70] text-white p-2.5 rounded-xl flex items-center justify-center transition-all duration-200 shadow-md hover:scale-105 active:scale-95 shrink-0"
+              className="bg-[#00a884] hover:bg-[#008f70] text-white p-2.5 rounded-md flex items-center justify-center transition-all duration-200 shadow-md active:scale-95 shrink-0"
               aria-label="Kirim Pesan WhatsApp"
               title="Kirim ke WhatsApp"
             >
@@ -201,14 +155,14 @@ export function WhatsAppButton() {
         </div>
       )}
 
-      {/* Main WhatsApp Trigger Button - Round Circular */}
+      {/* Main WhatsApp Trigger Button - Round Circular (rounded-full) */}
       <button
         onClick={handleOpenToggle}
         aria-label="Chat WhatsApp Tembus Digital"
-        className="relative group p-3.5 sm:p-4 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white shadow-[0_4px_25px_rgba(37,211,102,0.45)] hover:shadow-[0_6px_30px_rgba(37,211,102,0.65)] transform hover:scale-110 active:scale-95 transition-all duration-300 flex items-center justify-center"
+        className="relative group p-3.5 sm:p-4 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white shadow-[0_4px_20px_rgba(37,211,102,0.45)] hover:shadow-[0_6px_25px_rgba(37,211,102,0.65)] transform hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center border border-emerald-300/30"
       >
         {/* Glowing pulse ring */}
-        <span className="absolute -inset-1 rounded-full bg-[#25D366] opacity-40 group-hover:opacity-75 blur-sm transition-opacity duration-300 animate-pulse"></span>
+        <span className="absolute -inset-1 rounded-full bg-[#25D366] opacity-30 group-hover:opacity-75 blur-sm transition-opacity duration-300 animate-pulse"></span>
 
         {/* Outer ping animation when button is closed */}
         {!isOpen && (
@@ -231,7 +185,7 @@ export function WhatsAppButton() {
 
         {/* Unread badge dot */}
         {!isOpen && (
-          <span className="absolute top-0 right-0 flex h-3.5 w-3.5">
+          <span className="absolute -top-1 -right-1 flex h-3.5 w-3.5">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-red-500 border-2 border-[#121b22]"></span>
           </span>

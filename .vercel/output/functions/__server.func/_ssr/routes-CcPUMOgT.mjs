@@ -1,7 +1,7 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { d as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { C as CalendarCheck, _ as CodeXml, a as Shield, d as PenTool, f as Palette, g as Code, h as Globe, i as ShoppingCart, l as Search, m as LayoutTemplate, n as Star, o as Settings, p as Menu, s as Server, t as X, u as School, v as ClockArrowUp, x as ChartLine, y as ChevronRight } from "../_libs/lucide-react.mjs";
+import { S as CalendarCheck, _ as ClockArrowUp, a as Settings, b as ChartLine, c as Search, d as Palette, f as Menu, g as CodeXml, h as Code, i as Shield, l as School, m as Globe, n as Star, o as Server, p as LayoutTemplate, r as ShoppingCart, t as X, u as PenTool, v as ChevronRight } from "../_libs/lucide-react.mjs";
 import { t as LuPaintbrushVertical } from "../_libs/react-icons.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/routes-CcPUMOgT.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
