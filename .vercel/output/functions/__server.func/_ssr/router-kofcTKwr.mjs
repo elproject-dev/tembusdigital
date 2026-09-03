@@ -3,11 +3,11 @@ import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider 
 import { c as lazyRouteComponent, d as Link, f as useRouter, i as HeadContent, l as createFileRoute, o as createRouter, r as Scripts, s as Outlet, u as createRootRouteWithContext } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as Analytics } from "../_libs/vercel__analytics.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DWOSchjE.js
-var router_DWOSchjE_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-kofcTKwr.js
+var router_kofcTKwr_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-9dbc6wdD.css";
+var styles_default = "/assets/styles-6re165Gd.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -215,19 +215,25 @@ var Route$2 = createRootRouteWithContext()({
 			}
 		],
 		scripts: [
-			{ children: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			{
+				children: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W475F8Z5');` },
+})(window,document,'script','dataLayer','GTM-W475F8Z5');`,
+				suppressHydrationWarning: true
+			},
 			{
 				src: "https://www.googletagmanager.com/gtag/js?id=G-6VKWPQVQPQ",
 				async: true
 			},
-			{ children: `window.dataLayer = window.dataLayer || [];
+			{
+				children: `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-6VKWPQVQPQ');` },
+  gtag('config', 'G-6VKWPQVQPQ');`,
+				suppressHydrationWarning: true
+			},
 			{
 				type: "application/ld+json",
 				children: JSON.stringify({
@@ -236,7 +242,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					"name": "Jasa Pembuatan Aplikasi Mobile, Web, Desktop & Server, Kursus Pemrograman Sampai Bisa, Mentoring Coding Programmer Profesional, Kelas Belajar Coding Pemula hingga Mahir",
 					"image": "https://www.tembusdigital.studio/og-image.jpg",
 					"url": "https://www.tembusdigital.studio",
-					"telephone": "+6281253822525",
+					"telephone": "+6281393412277",
 					"priceRange": "Rp 1.000.000 - Custom",
 					"knowsAbout": [
 						"Layanan Kursus Pemrograman Sampai Bisa",
@@ -465,7 +471,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						"@type": "PostalAddress",
 						"addressCountry": "ID",
 						"areaServed": "Indonesia, Global",
-						"telephone": "+6281253822525"
+						"telephone": "+6281393412277"
 					},
 					"hasMap": "https://maps.app.goo.gl/2Zz55g4VUP2fi1Ya6",
 					"sameAs": ["https://www.instagram.com/tembusdigital"],
@@ -491,7 +497,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							"name": "Bagaimana cara berkonsultasi atau memesan layanan di Tembus Digital?",
 							"acceptedAnswer": {
 								"@type": "Answer",
-								"text": "Anda dapat menghubungi kami langsung melalui nomor WhatsApp resmi di +62 812 5382 2525 atau mengirim pesan langsung (DM) ke akun Instagram kami di @tembusdigital."
+								"text": "Anda dapat menghubungi kami langsung melalui nomor WhatsApp resmi di +62 81393412277 atau mengirim pesan langsung (DM) ke akun Instagram kami di @tembusdigital."
 							}
 						},
 						{
@@ -538,20 +544,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 });
 function RootShell({ children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("html", {
-		lang: "en",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("head", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeadContent, {}) }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("body", { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("noscript", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("iframe", {
-				src: "https://www.googletagmanager.com/ns.html?id=GTM-W475F8Z5",
-				height: "0",
-				width: "0",
-				style: {
-					display: "none",
-					visibility: "hidden"
-				}
-			}) }),
-			children,
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scripts, {})
-		] })]
+		lang: "id",
+		suppressHydrationWarning: true,
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("head", {
+			suppressHydrationWarning: true,
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeadContent, {})
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("body", {
+			suppressHydrationWarning: true,
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("noscript", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("iframe", {
+					src: "https://www.googletagmanager.com/ns.html?id=GTM-W475F8Z5",
+					height: "0",
+					width: "0",
+					style: {
+						display: "none",
+						visibility: "hidden"
+					}
+				}) }),
+				children,
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scripts, {})
+			]
+		})]
 	});
 }
 function RootComponent() {
@@ -564,7 +577,7 @@ function RootComponent() {
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Analytics, { debug: false })]
 	});
 }
-var $$splitComponentImporter$1 = () => import("./routes-CfwOApCM.mjs");
+var $$splitComponentImporter$1 = () => import("./routes-D1gkM85y.mjs");
 var Route$1 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Layanan Jasa Pembuatan Aplikasi Mobile,Desktop & Website Modern" },
@@ -639,7 +652,7 @@ var Route$1 = createFileRoute("/")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./blog-Cg897pCE.mjs");
+var $$splitComponentImporter = () => import("./blog-C254CMIw.mjs");
 var Route = createFileRoute("/blog")({
 	head: () => ({ meta: [
 		{ title: "Blog & Artikel — Tembus Digital" },
@@ -733,4 +746,4 @@ var getRouter = () => {
 	});
 };
 //#endregion
-export { getRouter, router_DWOSchjE_exports as t };
+export { getRouter, router_kofcTKwr_exports as t };

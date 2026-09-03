@@ -2,7 +2,7 @@ import { i as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { d as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { S as ArrowLeft, _ as ChevronRight, d as Menu, t as X, x as ArrowRight, y as Calendar } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/blog-Cg897pCE.js
+//#region node_modules/.nitro/vite/services/ssr/assets/blog-C254CMIw.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var blogPosts = [
@@ -144,23 +144,14 @@ function BlogPage() {
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "flex items-center lg:w-1/3",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 								to: "/",
-								className: "group font-display text-xl font-bold tracking-wider flex items-center relative pb-1 ml-0 md:ml-12",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-									className: "relative inline-block shine-text",
-									"data-text": "TEMBUSDIGITAL",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "text-foreground/90 transition-colors duration-300 group-hover:text-primary",
-										children: "TEMBUS"
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "text-gradient",
-										children: "DIGITAL"
-									})]
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "absolute bottom-0 left-0 w-full h-[2px] rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300",
-									style: { background: "var(--gradient-primary)" }
-								})]
+								className: "group flex items-center relative ml-0 md:ml-12",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+									src: "/LOGO TD_UNGU.png",
+									alt: "Tembus Digital",
+									className: "h-8 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+								})
 							})
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
@@ -186,7 +177,7 @@ function BlogPage() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex items-center justify-end lg:w-1/3",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-								href: "https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com",
+								href: "https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio",
 								target: "_blank",
 								rel: "noopener noreferrer",
 								className: "btn-primary !hidden lg:!flex text-sm !py-2 !px-12 mr-10",
@@ -245,7 +236,7 @@ function BlogPage() {
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-full h-px bg-border/50 my-2" }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-									href: "https://wa.me/6281253822525?text=halo",
+									href: "https://wa.me/6281393412277?text=halo",
 									target: "_blank",
 									rel: "noopener noreferrer",
 									onClick: () => setIsMobileMenuOpen(false),
@@ -320,7 +311,7 @@ function BlogPage() {
 								children: "Daftar kelas kursus / mentoring privat intensif sekarang juga di Tembus Digital dan kuasai coding sampai bisa!"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-								href: `https://wa.me/6281253822525?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mengikuti%20kursus%20pemrograman%20setelah%20membaca%20artikel%20"${encodeURIComponent(activePost.title)}"`,
+								href: `https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mengikuti%20kursus%20pemrograman%20setelah%20membaca%20artikel%20"${encodeURIComponent(activePost.title)}"`,
 								target: "_blank",
 								rel: "noopener noreferrer",
 								className: "btn-primary inline-flex text-xs md:text-sm !py-2.5 !px-8 cursor-pointer",

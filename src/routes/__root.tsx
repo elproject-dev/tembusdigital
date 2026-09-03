@@ -117,6 +117,7 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-W475F8Z5');`,
+        suppressHydrationWarning: true,
       },
       {
         src: "https://www.googletagmanager.com/gtag/js?id=G-6VKWPQVQPQ",
@@ -127,6 +128,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-6VKWPQVQPQ');`,
+        suppressHydrationWarning: true,
       },
       {
         type: "application/ld+json",
@@ -136,7 +138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           "name": "Jasa Pembuatan Aplikasi Mobile, Web, Desktop & Server, Kursus Pemrograman Sampai Bisa, Mentoring Coding Programmer Profesional, Kelas Belajar Coding Pemula hingga Mahir",
           "image": "https://www.tembusdigital.studio/og-image.jpg",
           "url": "https://www.tembusdigital.studio",
-          "telephone": "+6281253822525",
+          "telephone": "+6281393412277",
           "priceRange": "Rp 1.000.000 - Custom",
           "knowsAbout": [
             "Layanan Kursus Pemrograman Sampai Bisa",
@@ -365,7 +367,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             "@type": "PostalAddress",
             "addressCountry": "ID",
             "areaServed": "Indonesia, Global",
-            "telephone": "+6281253822525"
+            "telephone": "+6281393412277"
           },
           "hasMap": "https://maps.app.goo.gl/2Zz55g4VUP2fi1Ya6",
           "sameAs": [
@@ -393,7 +395,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "name": "Bagaimana cara berkonsultasi atau memesan layanan di Tembus Digital?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Anda dapat menghubungi kami langsung melalui nomor WhatsApp resmi di +62 812 5382 2525 atau mengirim pesan langsung (DM) ke akun Instagram kami di @tembusdigital."
+                "text": "Anda dapat menghubungi kami langsung melalui nomor WhatsApp resmi di +62 81393412277 atau mengirim pesan langsung (DM) ke akun Instagram kami di @tembusdigital."
               }
             },
             {
@@ -441,11 +443,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <head>
+    <html lang="id" suppressHydrationWarning>
+      <head suppressHydrationWarning>
         <HeadContent />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe

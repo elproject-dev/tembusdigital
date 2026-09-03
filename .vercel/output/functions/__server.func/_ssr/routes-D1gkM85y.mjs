@@ -3,7 +3,7 @@ import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tan
 import { d as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { _ as ChevronRight, a as Settings, b as CalendarCheck, c as School, d as Menu, f as LayoutTemplate, g as ClockArrowUp, h as CodeXml, i as Shield, l as PenTool, m as Code, n as Star, o as Server, p as Globe, r as ShoppingCart, s as Search, t as X, u as Palette, v as ChartLine } from "../_libs/lucide-react.mjs";
 import { t as LuPaintbrushVertical } from "../_libs/react-icons.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CfwOApCM.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-D1gkM85y.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function useReveal() {
@@ -430,23 +430,14 @@ function Index() {
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "flex items-center lg:w-1/3",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 								to: "/",
-								className: "group font-display text-xl font-bold tracking-wider flex items-center relative pb-1 ml-0 md:ml-12",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-									className: "relative inline-block shine-text",
-									"data-text": "TEMBUSDIGITAL",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "text-foreground/90 transition-colors duration-300 group-hover:text-primary",
-										children: "TEMBUS"
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "text-gradient",
-										children: "DIGITAL"
-									})]
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "absolute bottom-0 left-0 w-full h-[2px] rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300",
-									style: { background: "var(--gradient-primary)" }
-								})]
+								className: "group flex items-center relative ml-0 md:ml-12",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+									src: "/LOGO TD_UNGU.png",
+									alt: "Tembus Digital",
+									className: "h-8 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+								})
 							})
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
@@ -472,7 +463,7 @@ function Index() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex items-center justify-end lg:w-1/3",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-								href: "https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com",
+								href: "https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio",
 								target: "_blank",
 								rel: "noopener noreferrer",
 								className: "btn-primary !hidden lg:!flex text-sm !py-2 !px-12",
@@ -528,7 +519,7 @@ function Index() {
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-full h-px bg-border/50 my-2" }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-									href: "https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com",
+									href: "https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio",
 									target: "_blank",
 									rel: "noopener noreferrer",
 									onClick: () => setIsMobileMenuOpen(false),
@@ -1057,7 +1048,7 @@ function Index() {
 									className: "btn-primary shadow-[0_0_15px_var(--color-primary)]",
 									children: ["tembusdigital.com ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "w-4 h-4" })]
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-									href: "https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com",
+									href: "https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio",
 									target: "_blank",
 									rel: "noopener noreferrer",
 									className: "btn-ghost bg-background/50 backdrop-blur-sm border-white/10 hover:bg-white/10",

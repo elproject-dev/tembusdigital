@@ -313,12 +313,12 @@ function Index() {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl border-b border-border/40 bg-background/60">
         <div className="w-full max-w-[96vw] 2xl:max-w-[1600px] mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center lg:w-1/3">
-            <Link to="/" className="group font-display text-xl font-bold tracking-wider flex items-center relative pb-1 ml-0 md:ml-12">
-              <span className="relative inline-block shine-text" data-text="TEMBUSDIGITAL">
-                <span className="text-foreground/90 transition-colors duration-300 group-hover:text-primary">TEMBUS</span>
-                <span className="text-gradient">DIGITAL</span>
-              </span>
-              <span className="absolute bottom-0 left-0 w-full h-[2px] rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" style={{ background: "var(--gradient-primary)" }} />
+            <Link to="/" className="group flex items-center relative ml-0 md:ml-12">
+              <img
+                src="/LOGO TD_UNGU.png"
+                alt="Tembus Digital"
+                className="h-8 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
             </Link>
           </div>
 
@@ -329,7 +329,7 @@ function Index() {
           </nav>
 
           <div className="flex items-center justify-end lg:w-1/3">
-            <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12">Konsultasi <ChevronRight className="w-4 h-4" /></a>
+            <a href="https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12">Konsultasi <ChevronRight className="w-4 h-4" /></a>
             <button
               className="lg:hidden p-2 -mr-2 text-foreground/80 hover:text-primary transition-colors cursor-pointer"
               onClick={() => setIsMobileMenuOpen(true)}
@@ -370,7 +370,7 @@ function Index() {
 
             <div className="w-full h-px bg-border/50 my-2" />
 
-            <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
+            <a href="https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
               Konsultasi
             </a>
           </nav>
@@ -730,7 +730,7 @@ function Index() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center relative z-20">
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tembusdigital@gmail.com" target="_blank" rel="noopener noreferrer" className="btn-primary shadow-[0_0_15px_var(--color-primary)]">tembusdigital.com <ChevronRight className="w-4 h-4" /></a>
-              <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" className="btn-ghost bg-background/50 backdrop-blur-sm border-white/10 hover:bg-white/10">Chat WhatsApp</a>
+              <a href="https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio" target="_blank" rel="noopener noreferrer" className="btn-ghost bg-background/50 backdrop-blur-sm border-white/10 hover:bg-white/10">Chat WhatsApp</a>
             </div>
           </div>
         </div>

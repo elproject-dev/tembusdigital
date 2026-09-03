@@ -24,8 +24,8 @@ const SITE = {
   domain: "www.tembusdigital.studio",
   url: "https://www.tembusdigital.studio",
   brand: ["tembus digital", "tembusdigital", "tembusdigital studio", "tembus digital studio"],
-  phone: "+62 812 5382 2525",
-  wa: "https://wa.me/6281253822525",
+  phone: "+62 81393412277",
+  wa: "https://wa.me/6281393412277",
   area: ["Yogyakarta", "Jogja", "Jakarta", "Surabaya", "Bandung", "Semarang", "Indonesia"],
 };
 

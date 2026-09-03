@@ -164,12 +164,12 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl border-b border-border/40 bg-background/60">
         <div className="w-full max-w-[96vw] 2xl:max-w-[1600px] mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center lg:w-1/3">
-            <Link to="/" className="group font-display text-xl font-bold tracking-wider flex items-center relative pb-1 ml-0 md:ml-12">
-              <span className="relative inline-block shine-text" data-text="TEMBUSDIGITAL">
-                <span className="text-foreground/90 transition-colors duration-300 group-hover:text-primary">TEMBUS</span>
-                <span className="text-gradient">DIGITAL</span>
-              </span>
-              <span className="absolute bottom-0 left-0 w-full h-[2px] rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" style={{ background: "var(--gradient-primary)" }} />
+            <Link to="/" className="group flex items-center relative ml-0 md:ml-12">
+              <img
+                src="/LOGO TD_UNGU.png"
+                alt="Tembus Digital"
+                className="h-8 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
             </Link>
           </div>
 
@@ -180,7 +180,7 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
           </nav>
 
           <div className="flex items-center justify-end lg:w-1/3">
-            <a href="https://wa.me/6281253822525?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.com" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12 mr-10">Konsultasi <ChevronRight className="w-4 h-4" /></a>
+            <a href="https://wa.me/6281393412277?text=halo,saya%20ingin%20menanyakan%20pembuatan%20aplikasi,%0Asepertinya%20saya%20tertarik%20setelah%20melihat%20web%20ini.%0A%0A%0Ahttps://www.tembusdigital.studio" target="_blank" rel="noopener noreferrer" className="btn-primary !hidden lg:!flex text-sm !py-2 !px-12 mr-10">Konsultasi <ChevronRight className="w-4 h-4" /></a>
             <button
               className="lg:hidden p-2 -mr-2 text-foreground/80 hover:text-primary transition-colors cursor-pointer"
               onClick={() => setIsMobileMenuOpen(true)}
@@ -207,7 +207,7 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
             <a href="/#portofolio" onClick={() => setIsMobileMenuOpen(false)} className="font-bold text-lg text-foreground/80 transition-all duration-300 hover:text-primary hover:scale-105">Konsep</a>
             <Link to="/blog" onClick={() => { setSelectedPostIndex(null); setIsMobileMenuOpen(false); }} className="font-bold text-lg text-gradient hover:opacity-80 transition-all duration-300 hover:scale-105">Wawasan</Link>
             <div className="w-full h-px bg-border/50 my-2" />
-            <a href="https://wa.me/6281253822525?text=halo" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
+            <a href="https://wa.me/6281393412277?text=halo" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="btn-primary w-full justify-center !py-3 mt-2 shadow-[0_0_15px_var(--color-primary)]">
               Konsultasi
             </a>
           </nav>
@@ -258,7 +258,7 @@ Selain keamanan dan performa, pemeliharaan berkala juga diperlukan untuk memasti
               Daftar kelas kursus / mentoring privat intensif sekarang juga di Tembus Digital dan kuasai coding sampai bisa!
             </p>
             <a
-              href={`https://wa.me/6281253822525?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mengikuti%20kursus%20pemrograman%20setelah%20membaca%20artikel%20"${encodeURIComponent(activePost.title)}"`}
+              href={`https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mengikuti%20kursus%20pemrograman%20setelah%20membaca%20artikel%20"${encodeURIComponent(activePost.title)}"`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex text-xs md:text-sm !py-2.5 !px-8 cursor-pointer"
