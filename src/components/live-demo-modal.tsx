@@ -16,6 +16,13 @@ const DEMO_ITEMS: DemoItem[] = [
     url: "https://maga-swalayan.vercel.app/",
   },
   {
+    id: "erp-dashboard",
+    title: "Dashboard ERP & Analytic Bisnis",
+    description: "Dashboard executive monitoring performa bisnis, statistik realtime, dan manajemen karyawan.",
+    url: "https://elproject-erppos.vercel.app",
+    isExternal: false,
+  },
+  {
     id: "toko-ungu",
     title: "Toko Ungu - E-Commerce",
     description: "Website e-commerce & toko online interaktif dengan katalog produk, keranjang belanja, dan tampilan modern.",
@@ -44,13 +51,6 @@ const DEMO_ITEMS: DemoItem[] = [
     title: "Sistem Booking & Antrean Digital",
     description: "Sistem reservasi jadwal otomatis untuk klinik, salon, bengkel, dan manajemen antrean pelanggan.",
     url: "https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mencoba%20demo%20Sistem%20Booking%20%26%20Antrean",
-    isExternal: true,
-  },
-  {
-    id: "erp-dashboard",
-    title: "Dashboard ERP & Analytic Bisnis",
-    description: "Dashboard executive monitoring performa bisnis, statistik realtime, dan manajemen karyawan.",
-    url: "https://wa.me/6281393412277?text=Halo%20Tembus%20Digital,%20saya%20tertarik%20mencoba%20demo%20Dashboard%20ERP",
     isExternal: true,
   },
   {
