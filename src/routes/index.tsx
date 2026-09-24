@@ -317,7 +317,7 @@ function Index() {
           <div className="flex items-center lg:w-1/3">
             <Link to="/" className="group flex items-center relative ml-0 md:ml-12">
               <img
-                src="/LOGO TD_UNGU-ori.png"
+                src="/LOGO%20TD_UNGU-ori.png"
                 alt="Tembus Digital"
                 className="h-8 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
