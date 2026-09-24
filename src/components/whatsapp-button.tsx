@@ -45,16 +45,16 @@ export function WhatsAppButton() {
           <div className="bg-gradient-to-r from-[#00a884] to-[#128c7e] p-3.5 text-white flex items-center justify-between shadow-md rounded-t-xl">
             <div className="flex items-center gap-3">
               <div className="relative">
-                <div className="w-9 h-9 rounded-full bg-white/20 p-0.5 flex items-center justify-center font-bold text-white shadow-inner overflow-hidden border border-white/30">
+                <div className="w-9 h-9 rounded-full bg-black p-1.5 flex items-center justify-center font-bold text-white shadow-inner overflow-hidden border border-white/30">
                   <img
-                    src="/icon.svg"
+                    src="/logo.png"
                     alt="Tembus Digital Logo"
-                    className="w-full h-full object-cover rounded-full"
+                    className="w-full h-full object-cover rounded-full bg-black"
                     onError={(e) => {
                       (e.target as HTMLElement).style.display = "none";
                     }}
                   />
-                  <span className="text-xs font-black tracking-tighter">TD</span>
+                  <span className="text-xs font-black tracking-tighter hidden">TD</span>
                 </div>
               </div>
               <div>
