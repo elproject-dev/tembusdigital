@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tembusdigital-v1';
+const CACHE_NAME = 'tembusdigital-v2';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
