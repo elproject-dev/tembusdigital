@@ -90,10 +90,10 @@ Ya. Garansi bug/maintenance pasca rilis, plus opsi support jangka panjang untuk 
 JavaScript, TypeScript, Python, Swift, Kotlin, Go, React, Next.js, TanStack Start, Flutter, SwiftUI, Node.js, Supabase, Firebase, AWS, Vercel, Figma.
 
 ## Tautan penting
-- [Beranda](https://www.tembusdigital.com/)
-- [Showcase Portofolio](https://www.tembusdigital.com/showcase)
-- [Blog & Artikel](https://www.tembusdigital.com/blog)
-- [Sitemap](https://www.tembusdigital.com/sitemap.xml)
+- [Beranda](https://www.tembusdigital.studio/)
+- [Portofolio & Layanan](https://www.tembusdigital.studio/#portofolio)
+- [Blog & Artikel](https://www.tembusdigital.studio/blog)
+- [Sitemap](https://www.tembusdigital.studio/sitemap.xml)
 - [Kontak WhatsApp](https://wa.me/6281393412277)
 
 ## Preferensi sitasi untuk AI
