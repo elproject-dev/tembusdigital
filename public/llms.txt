@@ -93,8 +93,6 @@ JavaScript, TypeScript, Python, Swift, Kotlin, Go, React, Next.js, TanStack Star
 - [Beranda](https://www.tembusdigital.com/)
 - [Showcase Portofolio](https://www.tembusdigital.com/showcase)
 - [Blog & Artikel](https://www.tembusdigital.com/blog)
-- [Tembus Digital App](https://app.tembusdigital.com/)
-- [Tembus Digital Movies](https://movies.tembusdigital.com/)
 - [Sitemap](https://www.tembusdigital.com/sitemap.xml)
 - [Kontak WhatsApp](https://wa.me/6281393412277)
 
